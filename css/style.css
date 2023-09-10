@@ -1,0 +1,138 @@
+/*navbar*/
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    height: 128px;
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: linear-gradient(#D1EEFE, #C4B0E1);
+}
+
+.navbar ul {
+    padding: 10px;
+    display: flex;
+
+
+}
+
+.navbar li {
+    width: 139px;
+    height: 51px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li:hover {
+    transform: scale(1.5);
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+/*login container*/
+
+.login-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.login-content-box {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-content-box blockquote {
+    width: 639px;
+    height: 85px;
+    font-size: 30px;
+    text-justify: left: 0;
+    ;
+    color: #25C8C8;
+}
+
+.login-content-box .gambar-content {
+    border: 1px black solid;
+    width: 623px;
+    height: 372px;
+    border-radius: 25px;
+}
+
+.login-box {
+    width: 553px;
+    height: 629px;
+    border-radius: 25px;
+    background-color: #D1EEFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-box h1 {
+    width: 182;
+    height: 61;
+    margin-top: 20px;
+    color: black;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box form label {
+    font-size: 20px;
+    color: black;
+    text-align: left;
+}
+
+.login-box form input {
+    width: 382px;
+    height: 57px;
+    margin: 10px 0px;
+    border-radius: 25px;
+    border-color: transparent;
+    background-color: #25C8C8;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.login-box form .submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+.login-box form .submit-button button {
+    width: 138px;
+    height: 49px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #C5B6E4;
+    font-size: 20px;
+    color: black;
+    border-color: transparent;
+}
+
+.login-box form .submit-button button:hover {
+    transform: scale(1.1);
+}
+
+.login-box form .submit-button button:active {
+    transform: scale(0.8);
+}
