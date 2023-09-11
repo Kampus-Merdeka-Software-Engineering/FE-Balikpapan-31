@@ -1,10 +1,15 @@
-/*navbar*/
 * {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    background-color: #E6F6F7;
+}
+
+/*navbar*/
 .navbar {
+    width: 100%;
     height: 128px;
     border-radius: 0px 0px 30px 30px;
     display: flex;
@@ -56,16 +61,9 @@
     justify-content: space-around;
 }
 
-.login-content-box blockquote {
-    width: 639px;
-    height: 85px;
-    font-size: 30px;
-    text-justify: left: 0;
-    ;
-    color: #25C8C8;
-}
 
 .login-content-box .gambar-content {
+    margin: 50px;
     border: 1px black solid;
     width: 623px;
     height: 372px;
@@ -73,6 +71,7 @@
 }
 
 .login-box {
+    margin: 50px;
     width: 553px;
     height: 629px;
     border-radius: 25px;
@@ -83,25 +82,39 @@
     align-items: center;
 }
 
-.login-box h1 {
-    width: 182;
-    height: 61;
+.login-box .title-login {
+    width: 243px;
+    height: 74px;
     margin-top: 20px;
-    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #4F46C9;
+}
+
+.login-box .title-login h1 {
+    color: white;
 }
 
 .login-box form {
     display: flex;
     flex-direction: column;
+    margin: 30px;
 }
 
-.login-box form label {
+.login-box form .main {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box form .main label {
     font-size: 20px;
     color: black;
     text-align: left;
 }
 
-.login-box form input {
+.login-box form .main input {
     width: 382px;
     height: 57px;
     margin: 10px 0px;
@@ -119,13 +132,15 @@
 }
 
 .login-box form .submit-button button {
+    margin: 20px;
     width: 138px;
     height: 49px;
     margin-top: 20px;
     border-radius: 25px;
-    background-color: #C5B6E4;
+    background-color: #4F46C9;
     font-size: 20px;
-    color: black;
+    align-items: center;
+    color: white;
     border-color: transparent;
 }
 
