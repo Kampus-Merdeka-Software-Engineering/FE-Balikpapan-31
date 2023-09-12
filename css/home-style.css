@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container>.image {
+    width: 394px;
+    height: 360px;
+    border: 1px solid black;
+    margin: 100px;
+}
+
+.container>.quote {
+    width: 778px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.container>.quote>blockquote {
+    font-size: 30px;
+    font-weight: 500;
+    color: #298888;
+    text-align: center;
+}
+
+.container .imperative-sentences {
+    width: 756px;
+    height: 98px;
+    border-radius: 25px;
+    background-color: #4f46c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .imperative-sentences>p {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
