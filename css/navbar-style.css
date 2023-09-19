@@ -1,10 +1,13 @@
 * {
     margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
 }
 
 body {
-    background-color: #E6F6F7;
+    background: linear-gradient(to right, #A1CCF4, #FDFDFD);
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
 /*navbar*/
@@ -13,10 +16,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(#D1EEFE, #C4B0E1);
+    background: #D1EEFE;
     width: 100%;
-    height: 128px;
-    border-radius: 0px 0px 30px 30px;
+    height: 145px;
 }
 
 .navbar nav #logo {
@@ -48,6 +50,6 @@ body {
 .navbar li a {
     text-decoration: none;
     font-size: 25px;
-    font-weight: 550;
+    font-weight: 500;
     color: black;
 }
