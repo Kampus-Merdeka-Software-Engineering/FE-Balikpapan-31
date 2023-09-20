@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to right, #A6CFF4, #A6CFF4, #897CDF, #4F46C9);
+    background: linear-gradient(to right, #A6CFF4, #A6CFF4, #897CDF, #4F46C9);
 }
 
 /*login container*/
@@ -7,7 +7,7 @@ body {
 .login-content {
     display: flex;
     justify-content: space-between;
-    margin: 100px ;
+    margin: 100px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -22,7 +22,7 @@ body {
 }
 
 
-.login-content-box .gambar-content img{
+.login-content-box .gambar-content img {
     margin: 50px;
     width: 623px;
     height: 372px;
@@ -52,11 +52,12 @@ body {
     font-weight: 550;
 }
 
-.login-box .title-login .line{
+.login-box .title-login .line {
     width: 124px;
     height: 5px;
     background-color: #0F5F5F;
 }
+
 .login-box form {
     display: flex;
     flex-direction: column;
