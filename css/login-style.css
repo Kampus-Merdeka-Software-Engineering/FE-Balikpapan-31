@@ -1,13 +1,20 @@
 body {
     background: linear-gradient(to right, #A6CFF4, #A6CFF4, #897CDF, #4F46C9);
+
 }
 
 /*login container*/
-
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .login-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 1300px;
     margin: 100px;
+    height: 642px;
     border-radius: 20px;
     background-color: rgba(255, 255, 255, 0.8);
 }
@@ -17,15 +24,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
 
 .login-content-box .gambar-content img {
-    margin: 50px;
-    width: 623px;
-    height: 372px;
+    margin-right: 50px;
+    width: 543px;
+    height: 335px;
     border-radius: 25px;
 }
 
