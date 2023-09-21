@@ -1,0 +1,361 @@
+.services {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.services .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.services .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 145px;
+  top: 0;
+  left: 0;
+  background-color: #d1eefe;
+}
+
+.services .overlap-group {
+  position: absolute;
+  width: 231px;
+  height: 84px;
+  top: 29px;
+  left: 64px;
+}
+
+.services .healthy-logo {
+  position: absolute;
+  width: 25px;
+  height: 22px;
+  top: 14px;
+  left: 5px;
+}
+
+.services .text-wrapper {
+  position: absolute;
+  width: 231px;
+  top: 0;
+  left: 0;
+  font-family: "Rakkas-Regular", Helvetica;
+  font-weight: 400;
+  color: #07006c;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .overlap-2 {
+  position: absolute;
+  width: 139px;
+  height: 51px;
+  top: 57px;
+  left: 958px;
+}
+
+.services .line {
+  position: absolute;
+  width: 112px;
+  height: 5px;
+  top: 38px;
+  left: 14px;
+}
+
+.services .text-wrapper-2 {
+  position: absolute;
+  width: 139px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .overlap-3 {
+  position: absolute;
+  width: 273px;
+  height: 51px;
+  top: 57px;
+  left: 1099px;
+}
+
+.services .text-wrapper-3 {
+  position: absolute;
+  width: 139px;
+  top: 0;
+  left: 134px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .text-wrapper-4 {
+  position: absolute;
+  width: 139px;
+  top: 57px;
+  left: 673px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .text-wrapper-5 {
+  position: absolute;
+  width: 139px;
+  top: 57px;
+  left: 812px;
+  font-family: "Poppins-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .text-wrapper-6 {
+  position: absolute;
+  width: 307px;
+  top: 107px;
+  left: 589px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0e5e5e;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  top: 367px;
+  left: 117px;
+}
+
+.services .kotak {
+  position: relative;
+  width: 356px;
+  height: 449px;
+  background-color: #d1eefe;
+  border-radius: 25px;
+}
+
+.services .text-wrapper-7 {
+  position: absolute;
+  width: 307px;
+  top: 12px;
+  left: 28px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0e5e5e;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.services .through-our-app-you {
+  position: absolute;
+  width: 324px;
+  top: 86px;
+  left: 16px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .span {
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+}
+
+.services .text-wrapper-8 {
+  text-decoration: underline;
+}
+
+.services .div-2 {
+  position: absolute;
+  width: 131px;
+  height: 37px;
+  top: 355px;
+  left: 112px;
+  background-color: #4f46c9;
+  border-radius: 25px;
+}
+
+.services .text-wrapper-9 {
+  position: absolute;
+  width: 93px;
+  top: 360px;
+  left: 135px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .overlap-4 {
+  position: absolute;
+  width: 356px;
+  height: 449px;
+  top: 372px;
+  left: 565px;
+  background-color: #d1eefe;
+  border-radius: 25px;
+}
+
+.services .text-wrapper-10 {
+  position: absolute;
+  width: 307px;
+  top: 12px;
+  left: 24px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0e5e5e;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.services .our-app-offers {
+  position: absolute;
+  width: 307px;
+  top: 85px;
+  left: 24px;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .text-wrapper-11 {
+  top: 5px;
+  left: 24px;
+  position: absolute;
+  width: 93px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .overlap-group-2 {
+  position: absolute;
+  width: 356px;
+  height: 440px;
+  top: 372px;
+  left: 1013px;
+  background-color: #d1eefe;
+  border-radius: 25px;
+}
+
+.services .text-wrapper-12 {
+  position: absolute;
+  width: 307px;
+  top: 14px;
+  left: 26px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0e5e5e;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.services .overlap-5 {
+  position: absolute;
+  width: 322px;
+  height: 317px;
+  top: 75px;
+  left: 15px;
+}
+
+.services .book {
+  position: absolute;
+  width: 131px;
+  height: 37px;
+  top: 280px;
+  left: 97px;
+  background-color: #4f46c9;
+  border-radius: 25px;
+}
+
+.services .text-wrapper-13 {
+  top: 285px;
+  left: 124px;
+  position: absolute;
+  width: 93px;
+  font-family: "Poppins-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .we-offer-a-range-of {
+  position: absolute;
+  width: 322px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .img {
+  position: absolute;
+  width: 161px;
+  height: 7px;
+  top: 160px;
+  left: 663px;
+}
