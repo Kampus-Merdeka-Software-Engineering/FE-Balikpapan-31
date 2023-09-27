@@ -1,0 +1,39 @@
+.main {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* @media (min-width: 768px) {
+.main {
+    width: 100%;
+} */
+
+.article-title {
+    font-size: 48px;
+    text-align: center;
+    color: #0F5F5F;
+}
+
+.article-content-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.article-content-text {
+    font-size: 21px;
+    text-align: justify;
+    color: #333333;
+    margin: 100px 300px 0px 300px;
+    line-height: 1.5;
+}
+
+h3, h4 {
+    color: #0F5F5F;
+}
+
+
