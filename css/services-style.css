@@ -1,0 +1,263 @@
+.services {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.services .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.services .tittle {
+  top: 149px;
+  left: 566px;
+  font-size: 36px;
+  position: absolute;
+  width: 307px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0e5e5e;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .text-wrapper {
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0e5e5e;
+  font-size: 36px;
+  letter-spacing: 0;
+}
+
+.services .span {
+  font-size: 45px;
+}
+
+.services .line {
+  position: absolute;
+  width: 161px;
+  height: 7px;
+  top: 237px;
+  left: 637px;
+}
+
+.services .content {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 105px;
+  position: absolute;
+  top: 281px;
+  left: 128px;
+}
+
+.services .box {
+  position: relative;
+  width: 331px;
+  height: 646px;
+}
+
+.services .overlap-group {
+  position: relative;
+  width: 325px;
+  height: 646px;
+}
+
+.services .container {
+  position: absolute;
+  width: 325px;
+  height: 570px;
+  top: 76px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.services .tittle-2 {
+  top: 124px;
+  left: 9px;
+  font-size: 30px;
+  position: absolute;
+  width: 307px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0e5e5e;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .boxconsult {
+  position: absolute;
+  width: 155px;
+  height: 50px;
+  top: 552px;
+  left: 86px;
+}
+
+.services .text {
+  width: 297px;
+  top: 211px;
+  left: 10px;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .icon {
+  left: 95px;
+  background-color: #4f46c9;
+  border-radius: 63.5px/62px;
+  position: absolute;
+  width: 127px;
+  height: 124px;
+  top: 0;
+}
+
+.services .icon-group {
+  position: absolute;
+  width: 127px;
+  height: 124px;
+  top: 0px;
+  left: 0px;
+}
+
+.services .consult {
+  top: 558px;
+  left: 103px;
+  position: absolute;
+  width: 122px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .p {
+  width: 297px;
+  top: 211px;
+  left: 19px;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .img {
+  left: 104px;
+  position: absolute;
+  width: 127px;
+  height: 124px;
+  top: 0;
+}
+
+.services .overlap-wrapper {
+  position: relative;
+  width: 325px;
+  height: 641px;
+}
+
+.services .overlap {
+  position: relative;
+  width: 331px;
+  height: 641px;
+}
+
+.services .overlap-group-wrapper {
+  position: absolute;
+  width: 331px;
+  height: 570px;
+  top: 71px;
+  left: 0;
+}
+
+.services .overlap-group-2 {
+  position: relative;
+  width: 325px;
+  height: 570px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+}
+
+.services .tittle-3 {
+  top: 48px;
+  left: 9px;
+  font-size: 30px;
+  position: absolute;
+  width: 307px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #0e5e5e;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .consult-wrapper {
+  position: absolute;
+  width: 155px;
+  height: 50px;
+  top: 476px;
+  left: 86px;
+  background-size: 100% 100%;
+}
+
+.services .consult-2 {
+  top: 6px;
+  left: 17px;
+  position: absolute;
+  width: 122px;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.services .boxconsult2 {
+  position: absolute;
+  width: 155px;
+  height: 50px;
+  top: 474px;
+  left: 86px;
+}
+.services .text-2 {
+  width: 286px;
+  top: 135px;
+  left: 19px;
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.services .icon-2 {
+  left: 103px;
+  position: absolute;
+  width: 127px;
+  height: 124px;
+  top: 0;
+}
+
