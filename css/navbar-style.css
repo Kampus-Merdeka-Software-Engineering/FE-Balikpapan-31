@@ -30,6 +30,9 @@ body {
 
 }
 
+
+
+
 .navbar .menus1 li {
     width: 139px;
     height: 51px;
@@ -52,6 +55,7 @@ body {
 .navbar .burger-menu{
     display: none;
 }
+
 .navbar .menus2{
     display: none;
 }
@@ -59,7 +63,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
     .navbar nav{
         height: 70px;
     }
@@ -79,6 +83,10 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    }
+
+    .navbar .burger-menu:hover{
+        cursor: pointer;
     }
 
     .navbar .burger-menu div{
@@ -123,5 +131,6 @@ body {
         background-color:#07006D ;
         color: white;
     }
+    
 
 }
