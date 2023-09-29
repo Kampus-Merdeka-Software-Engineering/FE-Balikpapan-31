@@ -1,0 +1,160 @@
+ {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.head h1 {
+    font-size: 35px;
+    color: #298888;
+    margin-right: auto;
+    margin-left: 6%;
+}
+
+.head .head-line {
+    background-color: #0F5F5F;
+    height: 5px;
+    width: 88%;
+}
+
+.container-box {
+    width: 95%;
+    height: 800px;
+    display: flex;
+    background-color: rgba(209, 238, 254, 0.2);
+    border-radius: 10px;;
+
+}
+
+.container-box form {
+    width: 583.965px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-box form label {
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+}
+
+.container-box form input {
+    width: 439px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+    background-color: #D1EEFE;
+    border: none;
+}
+
+.container-box form select {
+    width: 439px;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+    background-color: #D1EEFE;
+    border: none;
+}
+
+.container-box form .name {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-box form .email {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container-box form .no-wa {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container-box form .doctor {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container-box form .complaint {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-box form .complaint #complaint {
+    width: 439px;
+    height: 210px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+    background-color: #D1EEFE;
+    border: none;
+    resize: none;
+}
+
+.container-box form .submit {
+    width: 439px;
+}
+
+.container-box form .submit button {
+    width: 149px;
+    height: 52.25px;
+    background-color: #4F46C9;
+    border-radius: 25px;
+    border: none;
+    color: #E6F6F7;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.container-box .description {
+    width:  713.735px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-box .description img {
+    width: 512px;
+    height: 290px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.container-box .description p {
+    font-size: 25px;
+    font-weight: 550;
+    color: #298888;
+    padding: 0px 80px;
+    text-align: center;
+    li
+}

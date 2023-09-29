@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Consult</title>
+    <link rel="stylesheet" type="text/css" href="./css/consult-style.css">
+    <link rel="stylesheet" type="text/css" href="./css/navbar-style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <nav>
+            <div id="logo">
+                <img src="./images/logo.png">
+            </div>
+            <ul class="menus1">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="burger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <div class="menus2">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- content -->
+    <div class="content">
+        <div class="head">
+            <h1>Form Consultation</h1>
+            <div class="head-line"></div>
+        </div>
+        <div class="container-box">
+            <form action="submit">
+                <div class="name">
+                    <label>Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="email">
+                    <label>Email</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div class="no-wa">
+                    <label>No. Whatsapp</label>
+                    <input type="text" name="noWhatsapp" required>
+                </div>
+                <div class="doctor">
+                    <label for="doctor">Choose Doctor</label>
+                    <select id="doctor" name="doctor" required>
+                        <option value="1">Doctor 1</option>
+                        <option value="2">Doctor 2</option>
+                        <option value="3">Doctor 3</option>
+                        <option value="4">Doctor 4</option>
+                    </select>
+                </div>
+                <div class="complaint">
+                    <label>Complaint</label>
+                    <textarea id="complaint" name="complaint" rows="4" cols="50"></textarea>
+                </div>
+                <div class="submit">
+                    <button type="submit">Consult</button>
+                </div>
+            </form>
+            <div class="description">
+                <img src="#">
+                <p>"There are times in life when we all need help. Don't hesitate to seek support for mental health. You are not alone in this struggle, and there are many people and resources ready to assist you in finding balance and happiness. Remember, courage is not about fighting alone but bravely seeking help to create better mental health. You are valuable, and your mental health is essential. Don't hesitate to seek help and support." 🌱💪❤️</p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script/navbar.js"></script>
+</body>
+
+</html>
