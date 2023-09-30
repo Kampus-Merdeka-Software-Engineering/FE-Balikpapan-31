@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    
+
 }
 
 body {
@@ -18,7 +18,7 @@ body {
     height: 145px;
 }
 
-.navbar nav #logo img{
+.navbar nav #logo img {
     width: 231px;
     height: 84px;
     margin-left: 60px;
@@ -29,9 +29,6 @@ body {
     display: flex;
 
 }
-
-
-
 
 .navbar .menus1 li {
     width: 139px;
@@ -52,50 +49,56 @@ body {
     font-weight: 500;
     color: black;
 }
-.navbar .burger-menu{
+
+.navbar .burger-menu {
     display: none;
 }
 
-.navbar .menus2{
-    display: none;
-}
-.navbar .menus2 ul{
+.navbar .menus2 {
     display: none;
 }
 
-@media screen and (max-width: 1024px){
-    .navbar nav{
+.navbar .menus2 ul {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar nav {
         height: 70px;
     }
-    .navbar nav #logo img{
-        margin:20px;
+
+    .navbar nav #logo img {
+        margin: 20px;
         width: 100px;
         height: 40px;
     }
+
     .navbar .menus1 {
         display: none;
     }
-    .navbar .burger-menu{
-    height: 60px;
-    width: 60px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+
+    .navbar .burger-menu {
+        height: 60px;
+        width: 60px;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
-    .navbar .burger-menu:hover{
+    .navbar .burger-menu:hover {
         cursor: pointer;
     }
 
-    .navbar .burger-menu div{
-    width: 50px;
-    height: 8px;
-    background-color: #07006D;
-    border-radius: 5px;
+    .navbar .burger-menu div {
+        width: 50px;
+        height: 8px;
+        background-color: #07006D;
+        border-radius: 5px;
     }
-    .navbar .menus2{
+
+    .navbar .menus2 {
         width: 100%;
         flex-direction: column;
         position: absolute;
@@ -103,21 +106,24 @@ body {
         z-index: 2;
 
     }
-    .navbar .menus2 ul{
+
+    .navbar .menus2 ul {
         list-style-type: none;
         display: flex;
         flex-direction: column;
         width: 200px;
         background-color: #D1EEFE;
     }
-    .navbar .menus2 ul li{
+
+    .navbar .menus2 ul li {
         height: 60px;
         width: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .navbar .menus2 ul li a{
+
+    .navbar .menus2 ul li a {
         text-decoration: none;
         color: #07006D;
         width: 100%;
@@ -127,10 +133,11 @@ body {
         align-items: center;
         font-weight: 600;
     }
-    .navbar .menus2 ul li a:hover{
-        background-color:#07006D ;
+
+    .navbar .menus2 ul li a:hover {
+        background-color: #07006D;
         color: white;
     }
-    
+
 
 }

@@ -1,72 +1,101 @@
-.footer{
-	width: 100%;
-	height: 350px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	background-color: #E3E3E3;
+.footer {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E3E3E3;
 }
 
-.footer p{
-	font-size: 30px;
-	color: #000000;
-	font-weight: 600;
-	margin-bottom: 20px;
-}
-.footer ul{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	width: 643px;
-	height: 92.03px;
-	list-style: none;
-	padding: 0;
+.footer p {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
-.footer ul li{
-	list-style: none;
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 643px;
+    height: 92.03px;
+    list-style: none;
+    padding: 0;
 }
 
-.footer ul li a{
-	height: 92.03px ;
-	width: 92.03px;
+.footer ul li {
+    list-style: none;
 }
 
-.footer ul li a img{
-	height: 92.03px ;
-	width: 92.03px;
-}
-.footer ul li a img:hover{
-	transform: scale(1.2);
+.footer ul li a {
+    height: 92.03px;
+    width: 92.03px;
 }
 
-.footer ul li a img:active{
-	transform: scale(0.8);
+.footer ul li a img {
+    height: 92.03px;
+    width: 92.03px;
 }
 
-@media screen and (max-width: 1024px){
-	.footer{
-		height: 175px;
-	}
+.footer ul li a img:hover {
+    transform: scale(1.2);
+}
 
-	.footer p{
-		font-size: 15px;
-		margin-bottom: 10px;
-	}
-	.footer ul{
-		width: 321.5px;
-		height: 46px;
-	}
+.footer ul li a img:active {
+    transform: scale(0.8);
+}
 
-	.footer ul li a{
-		height: 46px ;
-		width: 46px;
-	}
+@media screen and (max-width: 1024px) {
+    .footer {
+        height: 175px;
+    }
 
-	.footer ul li a img{
-		height: 46px ;
-		width: 46px;
-	}
+    .footer p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer ul {
+        width: 321.5px;
+        height: 46px;
+    }
+
+    .footer ul li a {
+        height: 46px;
+        width: 46px;
+    }
+
+    .footer ul li a img {
+        height: 46px;
+        width: 46px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        height: 87.5px;
+    }
+
+    .footer p {
+        font-size: 7.5px;
+        margin-bottom: 5px;
+    }
+
+    .footer ul {
+        width: 160.75px;
+        height: 23px;
+    }
+
+    .footer ul li a {
+        height: 23px;
+        width: 23px;
+    }
+
+    .footer ul li a img {
+        height: 23px;
+        width: 23px;
+    }
 }
