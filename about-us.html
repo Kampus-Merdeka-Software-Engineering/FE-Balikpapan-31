@@ -1,44 +1,124 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" type="text/css" href="./css/navbar-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="about-us-style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
+
     <!-- navbar -->
-     <div class="navbar">
-        <nav>
-            <div id="logo">
-                <img src="./images/logo.png">
-            </div>
-            <ul class="menus1">
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png"> 
+        </div>
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="library.html">Library</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-            <div class="burger-menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </nav>
-        <div class="menus2">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="consult.html">Consult</a></li>
             </ul>
         </div>
-    </div>
-    <script type="text/javascript" src="./script/navbar.js"></script>
-</body>
+    </nav>
+    <!-- end of navbar -->
 
+    <!-- main section -->
+    <section class="main-section">
+        <div class="main-information">
+            <h1>Mental Healing For A More Prosperous Life. Becoming A Mentally Healthy Indonesian</h1>
+        </div>
+        <div class="main-image">
+            <img src="images/psychology.png">
+        </div>
+    </section>
+    <!-- end of main section -->
+
+    <!-- second section -->
+    <div class="title2">
+        <h1>Our Founders</h1>
+    </div>
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img"><img src="images/meliana.png" alt="img" draggable="false"></div>
+            <h2>Meliana Endang NL</h2>
+            <span>Lulusan Sistem Informasi Universitas Singaperbangsa Karawang, salah satu pendiri web ini serta bekerjasama dengan teman-teman dari Group RevoU</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/pais.jpg" alt="img" draggable="false"></div>
+            <h2>Muhammad Faisz Aslam</h2>
+            <span>Lulusan Teknik Informatika Universitas Malikussaleh Aceh, salah satu pendiri web ini serta bekerjasama dengan teman-teman dari Group RevoU</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/fany.jpg" alt="img" draggable="false"></div>
+            <h2>Khofifah Dwi Fany</h2>
+            <span>Lulusan Teknik Informatika Universitas Muhammadiyah Prof.Dr.Hamka, salah satu pendiri web ini serta bekerjasama dengan teman-teman dari Group RevoU</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/mico.jpg" alt="img" draggable="false"></div>
+            <h2>Mico Snars</h2>
+            <span>Lulusan Sistem Informasi Universitas Kristen Krida Wacana, salah satu pendiri web ini serta bekerjasama dengan teman-teman dari Group RevoU</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/jeni.jpg" alt="img" draggable="false"></div>
+            <h2>Ersy Genius Nagari</h2>
+            <span>Lulusan Sistem Informasi Universitas Pembangunan Nasional "Veteran" Jawa Timur, salah satu pendiri web ini serta bekerjasama dengan teman-teman dari Group RevoU</span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="images/iqbal.jpg" alt="img" draggable="false"></div>
+            <h2>Iqbal Bagus Satria Insani</h2>
+            <span>Lulusan Manajemen Muhammadiyah Jember, salah satu pendiri web ini serta bekerjasama dengan teman-teman dari Group RevoU</span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    <!-- end of second section -->
+
+    <!-- third section -->
+    <section class="third-section">
+        <div class="visi-misi">
+            <h2>Our Vision</h2>
+            <p>Assisting the mental health of the well-being of the community</p>
+            <h2>Our Mission</h2>
+            <p>Being a community bridge to find trusted psychologists</p>
+        </div>
+    </section>    
+    <!-- end of third section -->
+
+    <!-- fourth section -->
+    <div class="title3">
+        <h1>"Why Should You Select Our Website?"</h1>
+    </div>
+    <section class="fourth-section">
+        <div class="reason-icon">
+
+            <!-- R1 -->
+            <div class="icons">
+                <img src="images/privacy1.png" height="200px" width="200px">
+                <h3>Secrecy Assured</h3>
+            </div>
+
+            <!-- R2 -->
+            <div class="icons">
+                <img src="images/chat1.png" height="200px" width="200px">
+                <h3>Connect with a Trusted Psychologist</h3>
+            </div>
+
+             <!-- R3 -->
+             <div class="icons">
+                <img src="images/sand-clock1.png" height="200px" width="200px">
+                <h3>Chat instantly without long waits</h3>
+            </div>
+        </div>
+    </section>
+    <!-- end of fourth section -->
+</body>
 </html>
