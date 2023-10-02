@@ -160,12 +160,14 @@
     font-size: 30px;
     font-weight: 700;
     color: #07006D;
+    font-family: sans-serif;
 }
 
 .info #comments .comment .theComment {
     width: 80%;
     height: 187px;
     font-size: 30px;
+    font-family: sans-serif;
     color: #0F5F5F;
     display: flex;
     align-items: center;
@@ -175,6 +177,7 @@
 .info #comments .comment .doubleComma {
     font-size: 100px;
     color: #07006D;
+    font-family: sans-serif;
 }
 
 .info .ourDoctors {
