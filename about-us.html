@@ -5,28 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <link rel="stylesheet" href="about-us-style.css">
-    <script src="about-us.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/about-us-style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/navbar-style.css" />
 </head>
 <body>
-
-    <!-- navbar -->
-    <nav>
-        <div class="logo">
-            <img src="images/logo.png"> 
-        </div>
-            <ul class="nav-links">
+   <!-- navbar -->
+    <div class="navbar">
+        <nav>
+            <div id="logo">
+                <img src="./images/logo.png">
+            </div>
+            <ul class="menus1">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="library.html">Library</a></li>
-                <li><a href="consult.html">Consult</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="burger-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <div class="menus2">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="library.html">Library</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
         </div>
-    </nav>
+    </div>
     <!-- end of navbar -->
 
     <!-- main section -->
@@ -120,5 +134,7 @@
         </div>
     </section>
     <!-- end of fourth section -->
+    <script type="text/javascript" src="./script/navbar.js"></script>
+    <script type="text/javascript" src="./script/about-us.js"></script>
 </body>
 </html>
