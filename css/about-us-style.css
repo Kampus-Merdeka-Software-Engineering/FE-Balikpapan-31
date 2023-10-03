@@ -5,22 +5,28 @@
     box-sizing: border-box;
 }
 
+body {
+    min-width: 387px;
+}
+
 .main-section {
     width: 100%;
     height: 447px;
-    padding: 0px 64px;
     display: flex;
+    padding-left: 20px;
     background-image: linear-gradient(to right, rgba(118, 111, 213, 1), rgba(0, 0, 0, 0));
     align-items: center;
+    justify-content: space-between;
 }
 
 .main-information {
     font-size: 25px;
     font-weight: 600;
     color: white;
+
 }
 
-.main-image {
+.main-image img {
     width: 454px;
     height: 447px;
 }
@@ -38,16 +44,13 @@
 }
 
 .wrapper {
-    max-width: 1100px;
-    width: 100%;
-    height: 400px;
+    width: 1100px;
+    height: auto;
     position: relative;
     display: flex;
     padding: 0 35px;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    border: 1px orange solid;
 }
 
 .wrapper i {
@@ -89,7 +92,6 @@
     border-radius: 8px;
     scroll-behavior: smooth;
     scrollbar-width: none;
-    border: 1px green solid;
 }
 
 .carousel::-webkit-scrollbar {
@@ -124,12 +126,16 @@
     background: #D1EEFE;
     cursor: pointer;
     padding-bottom: 15px;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 8px;
 }
 
 .carousel .card .img {
     background: #8B53FF;
+    margin-top: 35px;
     height: 148px;
     width: 148px;
     border-radius: 50%;
@@ -160,8 +166,15 @@
 .third-section {
     background-color: #E6EDF4;
     width: 100%;
-    height: 300px;
+    height: auto;
     padding: 0px 80px;
+}
+
+.visi-misi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .visi-misi h2 {
@@ -178,6 +191,10 @@
     margin-bottom: 60px;
 }
 
+.visi-misi .line {
+    margin-left: 20px;
+}
+
 .title3 {
     display: flex;
     flex-direction: column;
@@ -187,20 +204,20 @@
     margin-top: 60px;
 }
 
-.title3 p{
+.title3 p {
     font-size: 36px;
     font-weight: 600;
     color: #0F5F5F;
 }
 
-.title3 p span{
+.title3 p span {
     color: #4F46C9;
 }
 
 .fourth-section {
     background-color: white;
     width: 100%;
-    height: 500px;
+    height: auto;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -208,34 +225,296 @@
 
 .reason-icon {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .icons {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     font-size: 20px;
     font-weight: 300;
     color: #0F5F5F;
 }
 
-.icon img {
-    width: 100px;
-    height: 100px;
+.icons img {
+    width: 225px;
+    height: 2112.5px;
 }
 
 .container {
     width: 100%;
     height: auto;
-    border: 1px black solid;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .line {
     width: 124px;
     height: 5px;
     background-color: #0F5F5F;
+}
+
+/*=======================================================================*/
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        width: 550px;
+        padding: 0 17.5px;
+    }
+
+    .wrapper i {
+        height: 25px;
+        width: 25px;
+        font-size: 0.625rem;
+        line-height: 25px;
+        box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.23);
+    }
+
+    .wrapper i:first-child {
+        left: -11px;
+    }
+
+    .wrapper i:last-child {
+        right: -11px;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 3) - 6px);
+        gap: 8px;
+        border-radius: 4px;
+    }
+
+    .carousel .card {
+        width: 166.5px;
+        height: 250px;
+        padding-bottom: 12.5px;
+        border-radius: 4px;
+    }
+
+    .carousel .card .img {
+        background: #8B53FF;
+        margin-top: 17.5px;
+        height: 74px;
+        width: 74px;
+    }
+
+    .card .img img {
+        width: 70px;
+        height: 70px;
+        border: 2px solid #fff;
+    }
+
+    .carousel .card h2 {
+        font-weight: 500;
+        font-size: 0.78rem;
+        margin: 15px 0 2.5px;
+    }
+
+    .carousel .card span {
+        font-size: 0.655rem;
+    }
+
+    .container {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .main-section {
+        height: 223.5px;
+        padding-left: 10px;
+    }
+
+    .main-information {
+        font-size: 12.5px;
+    }
+
+    .main-image img {
+        width: 227px;
+        height: 223.5px;
+    }
+
+    .title2 {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+
+    .third-section {
+        padding: 0px 40px;
+    }
+
+    .visi-misi h2 {
+        font-size: 14px;
+    }
+
+    .visi-misi p {
+        font-size: 12.5px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .visi-misi .line {
+        margin-left: 10px;
+    }
+
+    .title3 {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    .title3 p {
+        font-size: 18px;
+    }
+
+    .fourth-section {}
+
+    .reason-icon {
+        margin-bottom: 20px;
+    }
+
+    .icons {
+        width: 150px;
+        height: 150px;
+        font-size: 10px;
+    }
+
+    .icons img {
+        width: 112.5px;
+        height: 112.5px;
+    }
+
+
+    .line {
+        width: 62px;
+        height: 2.5px;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        width: 275px;
+        padding: 0 8.75px;
+    }
+
+    .wrapper i {
+        height: 12.5px;
+        width: 12.5px;
+        font-size: 0.3125rem;
+        line-height: 12.5px;
+        box-shadow: 0 0.75px 1.5px rgba(0, 0, 0, 0.23);
+    }
+
+    .wrapper i:first-child {
+        left: -5.5px;
+    }
+
+    .wrapper i:last-child {
+        right: -5.5px;
+    }
+
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 3) - 3px);
+        gap: 4px;
+        border-radius: 2px;
+    }
+
+    .carousel .card {
+        width: 83.25px;
+        height: 125px;
+        padding-bottom: 6.25px;
+        border-radius: 2px;
+    }
+
+    .carousel .card .img {
+        margin-top: 8.75px;
+        height: 37px;
+        width: 37px;
+    }
+
+    .card .img img {
+        width: 35px;
+        height: 35px;
+        border: 1px solid #fff;
+    }
+
+    .carousel .card h2 {
+        ;
+        font-size: 0.39rem;
+        margin: 7.5px 0 1.25px;
+    }
+
+    .carousel .card span {
+        font-size: 0.3275rem;
+    }
+
+
+    .third-section {
+        padding: 0px 20px;
+    }
+
+    .visi-misi h2 {
+        font-size: 7px;
+    }
+
+    .visi-misi p {
+        font-size: 6.25px;
+        margin-top: 2.5px;
+        margin-bottom: 15px;
+    }
+
+    .visi-misi .line {
+        margin-left: 5px;
+    }
+
+    .title3 {
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+
+    .title3 p {
+        font-size: 9px;
+    }
+
+    .fourth-section {}
+
+    .reason-icon {
+        margin-bottom: 10px;
+
+    }
+
+    .icons {
+        width: 125px;
+        height: 125px;
+        font-size: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icons img {
+        width: 56.25px;
+        height: 56.25px;
+    }
+
+    .container {
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+    }
+
+    .line {
+        width: 31px;
+        height: 1.25px;
+    }
 }
