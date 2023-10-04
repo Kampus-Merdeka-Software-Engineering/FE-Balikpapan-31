@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./css/navbar-style.css">
     <link rel="stylesheet" href="./css/footer-style.css">
     <link rel="stylesheet" href="./css/home-style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -43,8 +44,11 @@
     </div>
     <!-- content -->
     <div class="container">
+        <div data-aos="zoom-in" data-aos-easing="ease-in-back"
+        data-aos-delay="300">
         <div class="image">
             <img src="./images/psycholgist.png" alt="Psycholgist">
+        </div>
         </div>
         <div class="quote">
             <blockquote>Our commitment lies in delivering evidence-based mental health support that is continually updated to meet your evolving needs.</blockquote>
@@ -145,6 +149,10 @@
             <li><a href="#"><img src="./images/linkedin.png" alt="Linkedin"></a></li>
         </ul>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
