@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .content {
     display: flex;
     flex-direction: column;
@@ -238,6 +239,7 @@
         width: 357px;
     }
 
+<<<<<<< HEAD
     .container-box .description img {
         width: 256px;
         height: 145px;
@@ -245,6 +247,15 @@
         argin-bottom: 35px;
         border-radius: 5px;
     }
+=======
+     .container-box .description img {
+         width: 256px;
+         height: 145px;
+         border: 1px black solid;
+         margin-bottom: 35px;
+         border-radius: 5px;
+     }
+>>>>>>> ce9f3f6fc24b4178ff75376c2af4cf823e9b0533
 
     .container-box .description p {
         font-size: 12.5px;
@@ -282,7 +293,14 @@
 
     }
 
+<<<<<<< HEAD
     .container-box .description p {
         margin-bottom: 60px;
     }
 }
+=======
+     .container-box .description p {
+         margin-bottom: 60px;
+     }
+ }
+>>>>>>> ce9f3f6fc24b4178ff75376c2af4cf823e9b0533
