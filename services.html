@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/services-style.css" />
-    <link rel="stylesheet" href="./css/navbar-style.css" />
+    <link rel="stylesheet" href="./css/services-style.css"/>
+    <link rel="stylesheet" href="./css/navbar-style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     </style>
@@ -67,6 +68,7 @@
                 <p class="tittle"><span class="text-wrapper">Our </span> <span class="span">Services</span></p>
                 <div class="line"></div>
             </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
             <div class="content">
                 <div class="box">
                     <div class="overlap-group">
@@ -101,8 +103,8 @@
                                 <div class="tittle-3">Mentalhealth<br />Programs</div>
                                 <p class="text-2">
                                     We offer a range of mental health programs specifically designed to help you manage specific mental
-                                    health issues. These programs include:<br /><br />- Stress Management:<br />- Anxiety and Depression:<br /> - Teen
-                                    Mental Health:
+                                    health issues. These programs include:<br /><br />- Stress Management<br />- Anxiety and Depression <br /> - Teen
+                                    Mental Health
                                 </p>
                             </div>
                         </div>
@@ -112,10 +114,15 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
     <!-- end of content -->
     <script type="text/javascript" src="./script/navbar.js"></script>
     <script type="text/javascript" src="./script/services.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
