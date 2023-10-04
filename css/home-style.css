@@ -79,6 +79,12 @@
 
 }
 
+.info .aboutUs a {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
 .info .aboutUs #readMore {
     width: 242px;
     height: 87px;
@@ -92,6 +98,14 @@
     font-weight: 550;
     margin-left: auto;
     margin-top: 50px;
+}
+
+.info .aboutUs #readMore:hover {
+    transform: scale(1.1);
+}
+
+.info .aboutUs #readMore:active {
+    transform: scale(0.9);
 }
 
 .info .ourService {
@@ -265,6 +279,12 @@
     background-color: black;
 }
 
+.theDoctor a {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
 .theDoctor .consult {
     width: 242px;
     height: 87px;
@@ -277,6 +297,14 @@
     font-size: 30px;
     font-weight: 600px;
     margin-bottom: 30px;
+}
+
+.theDoctor a:hover {
+    transform: scale(1.1);
+}
+
+.theDoctor a:active {
+    transform: scale(0.9);
 }
 
 .ourDoctors .title {
@@ -620,3 +648,5 @@
     }
 
 }
+
+/*=============================================*/

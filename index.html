@@ -19,11 +19,27 @@
                 <img src="./images/logo.png">
             </div>
             <ul class="menus1">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="consult.html">Consult</a></li>
+                <li id="page-current">
+                    <a href="index.html">Home</a>
+                    <span class="marker"></span>
+                    <span id="mark-current"></span>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                    <span class="marker"></span>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                    <span class="marker"></span>
+                </li>
+                <li>
+                    <a href="library.html">Library</a>
+                    <span class="marker"></span>
+                </li>
+                <li>
+                    <a href="consult.html">Consult</a>
+                    <span class="marker"></span>
+                </li>
             </ul>
             <div class="burger-menu">
                 <div></div>
@@ -58,7 +74,9 @@
             <h1 class="title">About Us</h1>
             <div class="line"></div>
             <p class="paragraph">This website was created to help people's mental health prosper, as well as being a bridge for people to find a trusted psychologist.</p>
-            <p id="readMore">Read More</p>
+            <a href="about-us.html">
+                <p id="readMore">Read More</p>
+            </a>
         </div>
         <div class="ourService">
             <h1 class="title">Our Service</h1>
@@ -112,7 +130,9 @@
                         <div></div>
                         <p>No Lisensi: 28721106</p>
                     </div>
-                    <div class="consult">Consult Now</div>
+                    <a href="consult.html">
+                        <div class="consult">Consult Now</div>
+                    </a>
                 </div>
                 <div class="theDoctor">
                     <header></header>
@@ -128,23 +148,26 @@
                         <div></div>
                         <p>No Lisensi: 29475530</p>
                     </div>
-                    <div class="consult">Consult Now</div>
+                    <a href="consult.html">
+                        <div class="consult">Consult Now</div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="./script/navbar.js"></script>
     <!-- footer -->
     <div class="footer">
         <p>Find Us in Social Media</p>
         <ul>
-            <li><a href="#"><img src="./images/twitter.png" alt="Twitter"></a></li>
-            <li><a href="#"><img src="./images/instagram.png" alt="Instagram"></a></li>
-            <li><a href="#"><img src="./images/facebook.png" alt="Facebook"></a></li>
-            <li><a href="#"><img src="./images/tiktok.png" alt="Tiktok"></a></li>
-            <li><a href="#"><img src="./images/linkedin.png" alt="Linkedin"></a></li>
+            <li><a href="https://twitter.com" target="blank"><img src="./images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://instagram.com" target="blank"><img src="./images/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://facebook.com" target="blank"><img src="./images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://tiktok.com" target="blank"><img src="./images/tiktok.png" alt="Tiktok"></a></li>
+            <li><a href="https://linkedin.com" target="blank"><img src="./images/linkedin.png" alt="Linkedin"></a></li>
         </ul>
     </div>
+    <script type="text/javascript" src="./script/navbar.js"></script>
+    <script type="text/javascript" src="./script/home.js"></script>
 </body>
 
 </html>
