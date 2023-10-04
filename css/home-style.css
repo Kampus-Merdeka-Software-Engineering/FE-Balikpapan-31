@@ -314,7 +314,162 @@
 .ourDoctors .line {
     margin-left: 50px;
 }
+@media screen and (max-width: 1366px) {
+    .container>.image img {
+        width: 351px;
+        height: 315px;
+        margin: 25px;
+    }
 
+    .container>.quote {
+        width: 730.5px;
+        height: 125px;
+        margin-bottom: 7.5px;
+    }
+
+    .container>.quote>blockquote {
+        font-size: 25.5px;
+    }
+
+    .container .imperative-sentences {
+        width: 655.5px;
+        height: 104.25px;
+        border-radius: 7.5px;
+        margin-bottom: 22.5px;
+    }
+
+    .container .imperative-sentences>p {
+        font-size: 22.5px;
+    }
+
+    .info .line {
+        width: 93px;
+        height: 3.75px;
+    }
+
+    .info .title {
+        font-size: 27px;
+        margin-top: 37.5px;
+    }
+
+    .info .paragraph {
+        font-size: 25.5px;
+        margin-top: 37.5px;
+    }
+
+    .info .aboutUs {
+        margin: 37.5px;
+
+    }
+
+    .info .aboutUs #readMore {
+        width: 181.5px;
+        height: 65.5px;
+        border-radius: 37.5px;
+        font-size: 22.5px;
+        margin-top: 37.5px;
+    }
+
+    .info .ourService {
+        margin: 37.5px;
+    }
+
+
+    .info .images>img {
+        margin: 37.5px;
+        width: 267.75px;
+        height: 180px;
+        border-radius: 7.5px;
+    }
+
+    .info #comments #title>p {
+        font-size: 27px;
+    }
+
+    .info #comments .comment {
+        width: 282.75px;
+        height: 346.5px;
+        margin: 18px;
+        border-radius: 11.25px;
+        padding: 22.5px;
+    }
+
+    .info #comments .comment h1 {
+        font-size: 22.5px;
+    }
+
+    .info #comments .comment .theComment {
+        height: 140.25px;
+        font-size: 22.5px;
+    }
+
+    .info #comments .comment .doubleComma {
+        font-size: 75px;
+    }
+
+    .info .ourDoctors {
+        height: 609px;
+    }
+
+    .ourDoctors #doctors .theDoctor {
+        width: 337.5px;
+        height: 428.25px;
+        margin: 18.75px;
+        border-radius: 11.25px;
+    }
+
+    .ourDoctors #doctors .theDoctor header {
+        height: 16.5 px;
+        border-radius: 11.25px 11.25px 0px 0px;
+    }
+
+    .ourDoctors #doctors .theDoctor .profile {
+        width: 96.75px;
+        height: 94.5px;
+        border-radius: 112.5px;
+        border: 7.5px #298888 solid;
+    }
+
+    .ourDoctors #doctors .theDoctor .profile img {
+        width: 96.75px;
+        height: 94.5px;
+        border-radius: 112.5px;
+    }
+
+    .theDoctor .identity .name {
+        font-size: 22.5px;
+    }
+
+    .theDoctor .identity .job {
+        font-size: 18.75px;
+    }
+
+    .theDoctor .licensi {
+        padding: 22.5px;
+    }
+
+    .theDoctor .licensi p {
+        font-size: 15px;
+    }
+
+
+    .theDoctor .consult {
+        width: 181.5px;
+        height: 65.25px;
+        border-radius: 37.5px;
+        font-size: 22.5px;
+        font-weight: 150px;
+        margin-bottom: 22.5px;
+    }
+
+    .ourDoctors .title {
+        margin-left: 37.5px;
+    }
+
+    .ourDoctors .line {
+        margin-left: 37.5px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .container>.image img {
