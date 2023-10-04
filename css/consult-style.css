@@ -1,4 +1,4 @@
- {
+ * {
      margin: 0;
      padding: 0;
  }
@@ -243,7 +243,7 @@
          width: 256px;
          height: 145px;
          border: 1px black solid;
-         argin-bottom: 35px;
+         margin-bottom: 35px;
          border-radius: 5px;
      }
 
