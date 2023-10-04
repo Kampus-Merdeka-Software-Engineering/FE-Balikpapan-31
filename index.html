@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./css/navbar-style.css">
     <link rel="stylesheet" href="./css/footer-style.css">
     <link rel="stylesheet" href="./css/home-style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -59,8 +60,11 @@
     </div>
     <!-- content -->
     <div class="container">
+        <div data-aos="zoom-in" data-aos-easing="ease-in-back"
+        data-aos-delay="300">
         <div class="image">
             <img src="./images/psycholgist.png" alt="Psycholgist">
+        </div>
         </div>
         <div class="quote">
             <blockquote>Our commitment lies in delivering evidence-based mental health support that is continually updated to meet your evolving needs.</blockquote>
@@ -93,6 +97,8 @@
                 <p>What Do They Say <span>About Curcol</span>
                     <p>
                         <div class="line"></div>
+                    </p>
+                </p>
             </div>
             <div id="container">
                 <div class="comment">
@@ -168,6 +174,10 @@
     </div>
     <script type="text/javascript" src="./script/navbar.js"></script>
     <script type="text/javascript" src="./script/home.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
