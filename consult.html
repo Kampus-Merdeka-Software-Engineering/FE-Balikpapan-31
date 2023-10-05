@@ -63,54 +63,79 @@
             <h1>Form Consultation</h1>
             <div class="head-line"></div>
         </div>
-        <div class="container-box">
-            <form action="submit">
-                <div class="name">
-                    <label>Name</label>
-                    <input type="text" name="name" required>
+        <form action="submit">
+            <div class="form-box">
+                <div class="form-left">
+                    <div class="name">
+                        <label>Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="email">
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="no-wa">
+                        <label>No. Whatsapp</label>
+                        <input type="text" name="noWhatsapp" required>
+                    </div>
+                    <div class="doctor">
+                        <label for="doctor">Choose Doctor</label>
+                        <select id="doctor" name="doctor" required>
+                            <option disabled selected value="">Select your doctor</option>
+                            <option value="1">Doctor 1</option>
+                            <option value="2">Doctor 2</option>
+                            <option value="3">Doctor 3</option>
+                            <option value="4">Doctor 4</option>
+                        </select>
+                    </div>
+                    <div class="complaint">
+                        <label>Complaint</label>
+                        <textarea id="complaint" name="complaint" rows="4" cols="50" placeholder="Write your complaint here"></textarea>
+                    </div>
                 </div>
-                <div class="email">
-                    <label>Email</label>
-                    <input type="email" name="email" required>
+                <div class="form-right">
+                    <div class="age">
+                        <label>Age</label>
+                        <input type="text" name="age" required>
+                    </div>
+                    <div class="gender">
+                        <label>Gander</label>
+                        <select id="gender" name="gender" required>
+                            <option disabled selected value="">Select your gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div class="choose-services">
+                        <label>Choose Services</label>
+                        <select id="doctor" name="doctor" required>
+                            <option disabled selected value="">Select your service</option>
+                            <option value="1">service 1</option>
+                            <option value="2">service 2</option>
+                            <option value="3">service 3</option>
+                        </select>
+                    </div>
+                    <div class="description">
+                        <img src="./images/consult2.png">
+                        <p>Don't miss the opportunity to get the guidance you need! Book your consultation schedule today and get ready for positive changes in your life!</p>
+                    </div>
                 </div>
-                <div class="no-wa">
-                    <label>No. Whatsapp</label>
-                    <input type="text" name="noWhatsapp" required>
-                </div>
-                <div class="doctor">
-                    <label for="doctor">Choose Doctor</label>
-                    <select id="doctor" name="doctor" required>
-                        <option value="1">Doctor 1</option>
-                        <option value="2">Doctor 2</option>
-                        <option value="3">Doctor 3</option>
-                        <option value="4">Doctor 4</option>
-                    </select>
-                </div>
-                <div class="complaint">
-                    <label>Complaint</label>
-                    <textarea id="complaint" name="complaint" rows="4" cols="50"></textarea>
-                </div>
-                <div class="submit">
-                    <button type="submit">Consult</button>
-                </div>
-            </form>
-            <div class="description">
-                <img src="./images/consult2.png">
-                <p>"There are times in life when we all need help. Don't hesitate to seek support for mental health. You are not alone in this struggle, and there are many people and resources ready to assist you in finding balance and happiness. Remember, courage is not about fighting alone but bravely seeking help to create better mental health. You are valuable, and your mental health is essential. Don't hesitate to seek help and support." 🌱💪❤️</p>
             </div>
-        </div>
+            <div class="submit">
+                <button type="submit">Consult</button>
+            </div>
+        </form>
     </div>
-    <div class= "footer">
+    <div class="footer">
         <p>Find Us in Social Media</p>
         <ul>
-            <li><a href="https://twitter.com"target="blank"><img src="./images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://twitter.com" target="blank"><img src="./images/twitter.png" alt="Twitter"></a></li>
             <li><a href="https://instagram.com" target="blank"><img src="./images/instagram.png" alt="Instagram"></a></li>
             <li><a href="https://facebook.com" target="blank"><img src="./images/facebook.png" alt="Facebook"></a></li>
             <li><a href="https://tiktok.com" target="blank"><img src="./images/tiktok.png" alt="Tiktok"></a></li>
             <li><a href="https://linkedin.com" target="blank"><img src="./images/linkedin.png" alt="Linkedin"></a></li>
         </ul>
     </div>
-
     <script type="text/javascript" src="./script/navbar.js"></script>
 </body>
 
