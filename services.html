@@ -5,8 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Services</title>
-    <link rel="stylesheet" href="./css/services-style.css" />
-    <link rel="stylesheet" href="./css/navbar-style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/services-style.css"/>
+    <link rel="stylesheet" href="./css/navbar-style.css"/>
+    <link rel="stylesheet" href="./css/footer-style.css"
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     </style>
@@ -20,11 +23,27 @@
                 <img src="./images/logo.png">
             </div>
             <ul class="menus1">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="consult.html">Consult</a></li>
+                <li>
+                    <a href="index.html">Home</a>
+                    <span class="marker"></span>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                    <span class="marker"></span>
+                </li>
+                <li id="page-current">
+                    <a href="services.html">Services</a>
+                    <span class="marker"></span>
+                    <span id="mark-current"></span>
+                </li>
+                <li>
+                    <a href="library.html">Library</a>
+                    <span class="marker"></span>
+                </li>
+                <li>
+                    <a href="consult.html">Consult</a>
+                    <span class="marker"></span>
+                </li>
             </ul>
             <div class="burger-menu">
                 <div></div>
@@ -50,6 +69,7 @@
                 <p class="tittle"><span class="text-wrapper">Our </span> <span class="span">Services</span></p>
                 <div class="line"></div>
             </div>
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
             <div class="content">
                 <div class="box">
                     <div class="overlap-group">
@@ -84,8 +104,8 @@
                                 <div class="tittle-3">Mentalhealth<br />Programs</div>
                                 <p class="text-2">
                                     We offer a range of mental health programs specifically designed to help you manage specific mental
-                                    health issues. These programs include:<br /><br />- Stress Management:<br />- Anxiety and Depression:<br /> - Teen
-                                    Mental Health:
+                                    health issues. These programs include:<br /><br />- Stress Management<br />- Anxiety and Depression <br /> - Teen
+                                    Mental Health
                                 </p>
                             </div>
                         </div>
@@ -95,10 +115,25 @@
                 </div>
             </div>
         </div>
-    </div>
+     </div>
     <!-- end of content -->
+    <!--footer-->
+    <div class= "footer">
+        <p>Find Us in Social Media</p>
+        <ul>
+            <li><a href="https://twitter.com"target="blank"><img src="./images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://instagram.com" target="blank"><img src="./images/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://facebook.com" target="blank"><img src="./images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://tiktok.com" target="blank"><img src="./images/tiktok.png" alt="Tiktok"></a></li>
+            <li><a href="https://linkedin.com" target="blank"><img src="./images/linkedin.png" alt="Linkedin"></a></li>
+        </ul>
+    </div>
     <script type="text/javascript" src="./script/navbar.js"></script>
     <script type="text/javascript" src="./script/services.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

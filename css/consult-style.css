@@ -1,289 +1,386 @@
- {
-     margin: 0;
-     padding: 0;
- }
+* {
+    margin: 0;
+    padding: 0;
+}
 
- .content {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     font-family: 'Poppins', sans-serif;
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
 
- }
+}
 
- .head {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     margin-top: 20px;
-     margin-bottom: 20px;
-     width: 100%;
- }
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
 
- .head h1 {
-     font-size: 35px;
-     color: #298888;
-     margin-right: auto;
-     margin-left: 6%;
- }
+.head h1 {
+    font-size: 35px;
+    color: #298888;
+    margin-right: auto;
+    margin-left: 6%;
+}
 
- .head .head-line {
-     background-color: #0F5F5F;
-     height: 5px;
-     width: 88%;
- }
+.head .head-line {
+    background-color: #0F5F5F;
+    height: 5px;
+    width: 88%;
+}
 
- .container-box {
-     width: 1297.7px;
-     height: 900px;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     background-color: rgba(209, 238, 254, 0.2);
-     border-radius: 10px;
-     ;
+form {
+    width: 1259px;
+    height: auto;
+    background-color: rgba(209, 238, 254, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
 
- }
+.form-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 
- .container-box form {
-     width: 583.965px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: space-around;
- }
+}
 
- .container-box form>div {
-     margin-bottom: 40px;
- }
+.form-left,
+.form-right {
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
- .container-box form label {
-     font-size: 25px;
-     font-weight: 550;
-     color: black;
-     margin-bottom: 5px;
- }
 
- .container-box form input {
-     width: 439px;
-     height: 45px;
-     border-radius: 10px;
-     font-size: 25px;
-     font-weight: 550;
-     color: black;
-     background-color: #D1EEFE;
-     border: none;
- }
+label {
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+    margin-bottom: 5px;
+}
 
- .container-box form select {
-     width: 439px;
-     height: 45px;
-     padding-left: 10px;
-     padding-right: 10px;
-     border-radius: 10px;
-     font-size: 25px;
-     font-weight: 550;
-     color: black;
-     background-color: #D1EEFE;
-     border: none;
- }
+input {
+    width: 419px;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 550;
+    color: grey;
+    background-color: #D1EEFE;
+    border: none;
+}
 
- .container-box form .name {
-     display: flex;
-     flex-direction: column;
- }
+select {
+    width: 439px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 550;
+    color: #5C5A5A;
+    background-color: #D1EEFE;
+    border: none;
+}
+option{
+    color: #5C5A5A;
+}
 
- .container-box form .email {
+form .name,
+.email,
+.no-wa,
+.doctor,
+.complaint,
+.age,
+.gender,
+.choose-services {
+    display: flex;
+    flex-direction: column;
+}
 
-     display: flex;
-     flex-direction: column;
- }
+form .complaint #complaint {
+    width: 439px;
+    height: 210px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 550;
+    color: #5C5A5A;
+    padding: 5px;
+    background-color: #D1EEFE;
+    border: none;
+    resize: none;
+}
 
- .container-box form .no-wa {
+form .submit {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 95px;
+}
 
-     display: flex;
-     flex-direction: column;
- }
+form .submit button {
+    width: 149px;
+    height: 52.25px;
+    background-color: #4F46C9;
+    border-radius: 25px;
+    border: none;
+    color: #E6F6F7;
+    font-size: 25px;
+    font-weight: 550;
+}
 
- .container-box form .doctor {
+form .submit button:hover{
+    transform: scale(1.1);
+}
 
-     display: flex;
-     flex-direction: column;
- }
+form .submit button:active{
+    transform: scale(0.9);
+}
 
- .container-box form .complaint {
-     display: flex;
-     flex-direction: column;
- }
 
- .container-box form .complaint #complaint {
-     width: 439px;
-     height: 210px;
-     border-radius: 10px;
-     font-size: 25px;
-     font-weight: 550;
-     color: black;
-     background-color: #D1EEFE;
-     border: none;
-     resize: none;
- }
+.description {
+    width: 439px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: #D1EEFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
- .container-box form .submit {
-     width: 439px;
- }
+.description img {
+    width: 295px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
- .container-box form .submit button {
-     width: 149px;
-     height: 52.25px;
-     background-color: #4F46C9;
-     border-radius: 25px;
-     border: none;
-     color: #E6F6F7;
-     font-size: 25px;
-     font-weight: 550;
- }
+.description p {
+    font-size: 15px;
+    font-weight: 550;
+    color: #298888;
+    padding: 0px 40px;
+    text-align: center;
+}
 
- .container-box .description {
-     width: 713.735px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
- }
+@media screen and (max-width: 1270px){
+    .head {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
 
- .container-box .description img {
-     width: 512px;
-     height: 290px;
-     border: 1px black solid;
-     border-radius: 10px;
-     margin-bottom: 70px;
- }
+    .head h1 {
+        font-size: 26.25px
+    }
 
- .container-box .description p {
-     font-size: 25px;
-     font-weight: 550;
-     color: #298888;
-     padding: 0px 80px;
-     text-align: center;
- }
+    .head .head-line {
+        height: 3.75px;
+    }
 
- @media screen and (max-width: 1300px) {
-     .head {
-         margin-top: 10px;
-         margin-bottom: 10px;
-     }
+    form {
+        width: 944.25px;
+    }
 
-     .head h1 {
-         font-size: 17.5px
-     }
+    .form-left,
+    .form-right {
+        height: 525px;
+        margin-top: 18px;
+        margin-bottom: 2.5px;
+    }
+    label {
+        font-size: 18.75px;
+        margin-bottom: 3.75px;
+    }
 
-     .head .head-line {
-         height: 2.5px;
-     }
+    input {
+        width: 318px;
+        min-width: 329.5;
+        height: 33.75px;
+        border-radius: 7.5px;
+        font-size: 18.75px;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
 
-     .container-box {
-         width: 648.85px;
-         height: 450px;
-         border-radius: 5px;
+    }
 
-     }
+    select {
+        width: 329.25px;
+        height: 33.75x;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+        border-radius: 7.5px;
+        font-size: 18.75px;
+    }
 
-     .container-box form {
-         width: 292px;
-     }
+    form .complaint #complaint {
+        width: 329.25px;
+        height: 157.5px;
+        border-radius: 7.5px;
+        font-size: 18.75px;
+    }
 
-     .container-box form>div {
-         margin-bottom: 20px;
-     }
+    form .submit {
+        margin-bottom: 18.75px;
+        margin-top: 15px;
+        margin-left: 71.25px;
+    }
 
-     .container-box form label {
-         font-size: 12.5px;
-     }
+    form .submit button {
+        width: 111.74px;
+        height: 39.1875px;
+        border-radius: 18.75px;
+        font-size: 18.75px;
+    }
 
-     .container-box form input {
-         width: 219.5px;
-         height: 22.5px;
-         border-radius: 5px;
-         font-size: 12.5px;
-     }
+    .description {
+        width: 329.25px;
+        height: 279.75px;
+        border-radius: 7.5px;
+    }
 
-     .container-box form select {
-         width: 219.5px;
-         height: 22.5px;
-         padding-left: 5px;
-         padding-right: 5px;
-         border-radius: 5px;
-         font-size: 12.5px;
-     }
+    .description img {
+        width: 221.25px;
+        height: 135px;
+        border-radius: 7.5px;
+        margin-bottom: 15px;
+    }
 
-     .container-box form .complaint #complaint {
-         width: 219.5px;
-         height: 105px;
-         border-radius: 5px;
-         font-size: 12.5px;
-     }
+    .description p {
+        font-size: 11.25px;
+        padding: 0px 30px;
+    }
+}
+@media screen and (max-width: 835px) {
+    .head {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-     .container-box form .submit {
-         width: 219.5px;
-     }
+    .head h1 {
+        font-size: 17.5px
+    }
 
-     .container-box form .submit button {
-         width: 74.5px;
-         height: 26.125px;
-         border-radius: 12.5px;
-         font-size: 12.5px;
-     }
+    .head .head-line {
+        height: 2.5px;
+    }
 
-     .container-box .description {
-         width: 357px;
-     }
+    form {
+        width: 629.5px;
+        margin-bottom: 20px;
+    }
 
-     .container-box .description img {
-         width: 256px;
-         height: 145px;
-         border: 1px black solid;
-         argin-bottom: 35px;
-         border-radius: 5px;
-     }
+    .form-left,
+    .form-right {
+        height: 350px;
+        margin-top: 12px;
+    }
 
-     .container-box .description p {
-         font-size: 12.5px;
-         padding: 0px 40px;
+    label {
+        font-size: 12.5px;
+        margin-bottom: 2.5px;
+    }
 
-     }
+    input {
+        width: 209.5px;
+        min-width: 219.5;
+        height: 22.5px;
+        border-radius: 5px;
+        font-size: 12.5px;
+        padding-left: 5px;
+        padding-right: 5px;
 
- }
+    }
 
- @media screen and (max-width: 650px) {
-     .head {
-         margin-top: 10px;
-         margin-bottom: 10px;
-     }
+    select {
+        width: 219.5px;
+        height: 22.5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 5px;
+        font-size: 12.5px;
+    }
 
-     .head h1 {
-         font-size: 17.5px
-     }
+    form .complaint #complaint {
+        width: 219.5px;
+        height: 105px;
+        border-radius: 5px;
+        font-size: 12.5px;
+    }
 
-     .head .head-line {
-         height: 2.5px;
-     }
+    form .submit {
+        margin-bottom: 12.5px;
+        margin-top: 10px;
+        margin-left: 47.5px;
+    }
 
-     .container-box {
-         width: auto;
-         height: auto;
-         flex-direction: column;
-         align-items: center;
+    form .submit button {
+        width: 74.5px;
+        height: 26.125px;
+        border-radius: 12.5px;
+        font-size: 12.5px;
+    }
 
-     }
+    .description {
+        width: 219.5px;
+        height: 186.5px;
+        border-radius: 5px;
+    }
 
-     .container-box form {
-         margin-top: 40px;
-         margin-bottom: 40px;
+    .description img {
+        width: 147.5px;
+        height: 90px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
 
-     }
+    .description p {
+        font-size: 7.5px;
+        padding: 0px 20px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .head {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-     .container-box .description p {
-         margin-bottom: 60px;
-     }
- }
+    .head h1 {
+        font-size: 17.5px
+    }
+
+    .head .head-line {
+    height: 2.5px;
+    }
+
+    form {
+        width: 95%;
+    }
+    .form-box{
+        flex-direction: column;
+    }
+    .form-left,.form-right{
+        min-width: 223px;
+    }
+    form .submit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        margin-top: 12px;
+        margin-bottom: 15px;
+    }
+
+}
