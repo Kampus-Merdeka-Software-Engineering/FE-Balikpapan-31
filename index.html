@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="./css/navbar-style.css">
     <link rel="stylesheet" href="./css/footer-style.css">
     <link rel="stylesheet" href="./css/home-style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 
 <body>
@@ -19,11 +21,27 @@
                 <img src="./images/logo.png">
             </div>
             <ul class="menus1">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="library.html">Library</a></li>
-                <li><a href="consult.html">Consult</a></li>
+                <li id="page-current">
+                    <a href="index.html">Home</a>
+                    <span class="marker"></span>
+                    <span id="mark-current"></span>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                    <span class="marker"></span>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                    <span class="marker"></span>
+                </li>
+                <li>
+                    <a href="library.html">Library</a>
+                    <span class="marker"></span>
+                </li>
+                <li>
+                    <a href="consult.html">Consult</a>
+                    <span class="marker"></span>
+                </li>
             </ul>
             <div class="burger-menu">
                 <div></div>
@@ -43,7 +61,8 @@
     </div>
     <!-- content -->
     <div class="container">
-        <div class="image">
+        <div class="image" data-aos="zoom-in" data-aos-easing="ease-in-back"
+        data-aos-delay="300">
             <img src="./images/psycholgist.png" alt="Psycholgist">
         </div>
         <div class="quote">
@@ -58,7 +77,9 @@
             <h1 class="title">About Us</h1>
             <div class="line"></div>
             <p class="paragraph">This website was created to help people's mental health prosper, as well as being a bridge for people to find a trusted psychologist.</p>
-            <p id="readMore">Read More</p>
+            <a href="about-us.html">
+                <p id="readMore">Read More</p>
+            </a>
         </div>
         <div class="ourService">
             <h1 class="title">Our Service</h1>
@@ -75,6 +96,8 @@
                 <p>What Do They Say <span>About Curcol</span>
                     <p>
                         <div class="line"></div>
+                    </p>
+                </p>
             </div>
             <div id="container">
                 <div class="comment">
@@ -89,7 +112,7 @@
                 </div>
                 <div class="comment">
                     <h1>Satria</h1>
-                    <p class="theComment">Very satisfied, the psychologist is kind, friendly, and very helpful when clients consult. Highly recommended</p>
+                    <p class="theComment">The Web was very helpful, the psychologist was very kind and friendly. Highly recommended</p>
                     <p class="doubleComma">,,</p>
                 </div>
             </div>
@@ -98,53 +121,104 @@
             <h1 class="title">Our Doctors</h1>
             <div class="line"></div>
             <div id="doctors">
-                <div class="theDoctor">
-                    <header></header>
-                    <div class="profile">
-                        <img src="./images/femaledoctor.jpeg">
-                    </div>
-                    <div class="identity">
-                        <p class="name">Shania Adelia Yuniar, M.Psi</p>
-                        <p class="job">Psikolog</p>
-                    </div>
-                    <div class="licensi">
-                        <p>Universitas Padjajaran</p>
-                        <div></div>
-                        <p>No Lisensi: 28721106</p>
-                    </div>
-                    <div class="consult">Consult Now</div>
-                </div>
-                <div class="theDoctor">
-                    <header></header>
-                    <div class="profile">
-                        <img src="./images/maledoctor.jpeg">
-                    </div>
-                    <div class="identity">
-                        <p class="name">Danny Wajendra, S.Psi., M.Psi.</p>
-                        <p class="job">Psikolog</p>
-                    </div>
-                    <div class="licensi">
-                        <p>Universitas Indonesia</p>
-                        <div></div>
-                        <p>No Lisensi: 29475530</p>
-                    </div>
-                    <div class="consult">Consult Now</div>
-                </div>
+                <div class="container">
+                    <div class="wrapper">
+                        <i id="left" class="fa-solid fa-angle-left"></i>
+                        <ul class="carousel">
+                            <li class="theDoctor">
+                                <header></header>
+                                <div class="profile">
+                                    <img src="./images/femaledoctor.jpeg" alt="img" draggable="false">
+                                </div>
+                                <div class="identity">
+                                    <p class="name">Shania Adelia Yuniar, M.Psi</p>
+                                    <p class="job">Psikolog</p>
+                                </div>
+                                <div class="licensi">
+                                    <p>Universitas Padjajaran</p>
+                                    <div></div>
+                                    <p>No Lisensi: 28721106</p>
+                                </div>
+                                <a href="consult.html">
+                                    <div class="consult">Consult Now</div>
+                                </a>
+                            </li>
+                            <li class="theDoctor">
+                                <header></header>
+                                <div class="profile">
+                                    <img src="./images/maledoctor.jpeg" alt="img" draggable="false">
+                                </div>
+                                <div class="identity">
+                                    <p class="name">Danny W, S.Psi., M.Psi.</p>
+                                    <p class="job">Psikolog</p>
+                                </div>
+                                <div class="licensi">
+                                    <p>Universitas Indonesia</p>
+                                    <div></div>
+                                    <p>No Lisensi: 29475530</p>
+                                </div>
+                                <a href="consult.html">
+                                    <div class="consult">Consult Now</div>
+                                </a>
+                            </li>
+                            <li class="theDoctor">
+                                <header></header>
+                                <div class="profile">
+                                    <img src="./images/femaledoctor.jpeg" alt="img" draggable="false">
+                                </div>
+                                <div class="identity">
+                                    <p class="name">Vanya Oktaviani, S.Psi</p>
+                                    <p class="job">Psikolog</p>
+                                </div>
+                                <div class="licensi">
+                                    <p>Universitas Airlangga</p>
+                                    <div></div>
+                                    <p>No Lisensi: 34327180</p>
+                                </div>
+                                <a href="consult.html">
+                                    <div class="consult">Consult Now</div>
+                                </a>
+                            </li>
+                            <li class="theDoctor">
+                                <header></header>
+                                <div class="profile">
+                                    <img src="./images/femaledoctor.jpeg" alt="img" draggable="false">
+                                </div>
+                                <div class="identity">
+                                    <p class="name">Alina Amanda H, M.Psi</p>
+                                    <p class="job">Psikolog</p>
+                                </div>
+                                <div class="licensi">
+                                    <p>Universitas Indonesia</p>
+                                    <div></div>
+                                    <p>No Lisensi: 36890711</p>
+                                </div>
+                                <a href="consult.html">
+                                    <div class="consult">Consult Now</div>
+                                </a>
+                            </li>
+                            </ul>
+                            <i id="left" class="fa-solid fa-angle-right"></i>
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="./script/navbar.js"></script>
     <!-- footer -->
     <div class="footer">
         <p>Find Us in Social Media</p>
         <ul>
-            <li><a href="#"><img src="./images/twitter.png" alt="Twitter"></a></li>
-            <li><a href="#"><img src="./images/instagram.png" alt="Instagram"></a></li>
-            <li><a href="#"><img src="./images/facebook.png" alt="Facebook"></a></li>
-            <li><a href="#"><img src="./images/tiktok.png" alt="Tiktok"></a></li>
-            <li><a href="#"><img src="./images/linkedin.png" alt="Linkedin"></a></li>
+            <li><a href="https://twitter.com" target="blank"><img src="./images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="https://instagram.com" target="blank"><img src="./images/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://facebook.com" target="blank"><img src="./images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="https://tiktok.com" target="blank"><img src="./images/tiktok.png" alt="Tiktok"></a></li>
+            <li><a href="https://linkedin.com" target="blank"><img src="./images/linkedin.png" alt="Linkedin"></a></li>
         </ul>
     </div>
+    <script type="text/javascript" src="./script/navbar.js"></script>
+    <script type="text/javascript" src="./script/home.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
