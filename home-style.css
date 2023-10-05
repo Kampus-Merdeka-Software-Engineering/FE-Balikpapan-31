@@ -1,0 +1,897 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1024%;
+    background: linear-gradient(to right, #A1CCF4, #FDFDFD);
+
+}
+
+.container>.image img {
+    width: 468px;
+    height: 419px;
+    margin: 100px;
+}
+
+.container>.quote {
+    width: 975px;
+    height: 169px;
+    margin-bottom: 10px;
+}
+
+.container>.quote>blockquote {
+    font-size: 34px;
+    font-weight: 600;
+    color: rgba(15, 95, 95, 1);
+    text-align: center;
+}
+
+.container .imperative-sentences {
+    width: 874px;
+    height: 139px;
+    border-radius: 10px;
+    background-color: rgba(79, 70, 201, 0.78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    box-shadow: inset 0 0 0 1px #000;
+}
+
+.container .imperative-sentences>p {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.info {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.info .line {
+    width: 124px;
+    height: 5px;
+    background-color: #0F5F5F;
+}
+
+.info .title {
+    font-size: 36px;
+    color: #0F5F5F;
+    margin-top: 50px;
+}
+
+.info .paragraph {
+    font-size: 34px;
+    color: #0F5F5F;
+    margin-top: 50px;
+}
+
+.info .aboutUs {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.info .aboutUs a {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
+.info .aboutUs #readMore {
+    width: 242px;
+    height: 87px;
+    color: #FFFFFF;
+    background-color: #4F46C9;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 550;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.info .aboutUs #readMore:hover {
+    transform: scale(1.1);
+}
+
+.info .aboutUs #readMore:active {
+    transform: scale(0.9);
+}
+
+.info .ourService {
+    margin: 50px;
+}
+
+.info .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info .images>img {
+    margin: 50px;
+    width: 359px;
+    height: 240px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.info #comments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info #comments #title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info #comments #title>p {
+    font-size: 36px;
+    font-weight: 500;
+    color: #0F5F5F;
+}
+
+.info #comments #title>p>span {
+    color: #4F46C9;
+}
+
+.info #comments #container {
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.info #comments .comment {
+    width: 377px;
+    height: 462px;
+    margin: 50px;
+    border-radius: 15px;
+    background-color: #D1EEFE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.info #comments .comment h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #07006D;
+    font-family: sans-serif;
+}
+
+.info #comments .comment .theComment {
+    width: 80%;
+    height: 187px;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #0F5F5F;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.info #comments .comment .doubleComma {
+    font-size: 100px;
+    color: #07006D;
+    font-family: sans-serif;
+}
+
+.info .ourDoctors {
+    width: 100%;
+    height: 812px;
+    background: linear-gradient(to right, #A1CCF4, #FDFDFD);
+}
+
+.wrapper {
+    width: 1100px;
+    height: auto;
+    position: relative;
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #766FD5;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.85);
+}
+
+.wrapper i:first-child {
+    left: -22px;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+}
+
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 25px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .theDoctor {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel :where(.theDoctor, .img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourDoctors #doctors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel .theDoctor{
+    scroll-snap-align: start;
+    width: 500px;
+    height: 571px;
+    margin: 25px;
+    list-style: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.ourDoctors #doctors .theDoctor {
+    width: 500px;
+    height: 571px;
+    margin: 25px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ourDoctors #doctors .theDoctor header {
+    width: 100%;
+    height: 22px;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #4F46C9;
+}
+
+.ourDoctors #doctors .theDoctor .profile {
+    width: 129px;
+    height: 126px;
+    border-radius: 150px;
+    border: 10px #298888 solid;
+}
+
+.ourDoctors #doctors .theDoctor .profile img {
+    width: 129px;
+    height: 126px;
+    border-radius: 150px;
+}
+
+.theDoctor .identity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theDoctor .identity .name {
+    font-size: 30px;
+    font-weight: 550;
+    color: #07006D;
+}
+
+.theDoctor .identity .job {
+    font-size: 25px;
+    font-weight: 550;
+    color: #0F5F5F;
+}
+
+.theDoctor .licensi {
+    width: 85%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.theDoctor .licensi p {
+    font-size: 20px;
+    font-weight: 550;
+    color: #0F5F5F;
+    margin-right: auto;
+}
+
+.theDoctor .licensi div {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.theDoctor a {
+    width: auto;
+    height: auto;
+    text-decoration: none;
+}
+
+.theDoctor .consult {
+    width: 242px;
+    height: 87px;
+    border-radius: 50px;
+    background-color: #4F46C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+
+.theDoctor a:hover {
+    transform: scale(1.1);
+}
+
+.theDoctor a:active {
+    transform: scale(0.9);
+}
+
+.ourDoctors .title {
+    margin-left: 50px;
+}
+
+.ourDoctors .line {
+    margin-left: 50px;
+}
+@media screen and (max-width: 1366px) {
+    .container>.image img {
+        width: 351px;
+        height: 315px;
+        margin: 25px;
+    }
+
+    .container>.quote {
+        width: 730.5px;
+        height: 125px;
+        margin-bottom: 7.5px;
+    }
+
+    .container>.quote>blockquote {
+        font-size: 25.5px;
+    }
+
+    .container .imperative-sentences {
+        width: 655.5px;
+        height: 104.25px;
+        border-radius: 7.5px;
+        margin-bottom: 22.5px;
+    }
+
+    .container .imperative-sentences>p {
+        font-size: 22.5px;
+    }
+
+    .info .line {
+        width: 93px;
+        height: 3.75px;
+    }
+
+    .info .title {
+        font-size: 27px;
+        margin-top: 37.5px;
+    }
+
+    .info .paragraph {
+        font-size: 25.5px;
+        margin-top: 37.5px;
+    }
+
+    .info .aboutUs {
+        margin: 37.5px;
+
+    }
+
+    .info .aboutUs #readMore {
+        width: 181.5px;
+        height: 65.5px;
+        border-radius: 37.5px;
+        font-size: 22.5px;
+        margin-top: 37.5px;
+    }
+
+    .info .ourService {
+        margin: 37.5px;
+    }
+
+
+    .info .images>img {
+        margin: 37.5px;
+        width: 267.75px;
+        height: 180px;
+        border-radius: 7.5px;
+    }
+
+    .info #comments #title>p {
+        font-size: 27px;
+    }
+
+    .info #comments .comment {
+        width: 282.75px;
+        height: 346.5px;
+        margin: 18px;
+        border-radius: 11.25px;
+        padding: 22.5px;
+    }
+
+    .info #comments .comment h1 {
+        font-size: 22.5px;
+    }
+
+    .info #comments .comment .theComment {
+        height: 140.25px;
+        font-size: 22.5px;
+    }
+
+    .info #comments .comment .doubleComma {
+        font-size: 75px;
+    }
+
+    .info .ourDoctors {
+        height: 609px;
+    }
+
+    .ourDoctors #doctors .theDoctor {
+        width: 337.5px;
+        height: 428.25px;
+        margin: 18.75px;
+        border-radius: 11.25px;
+    }
+
+    .ourDoctors #doctors .theDoctor header {
+        height: 16.5 px;
+        border-radius: 11.25px 11.25px 0px 0px;
+    }
+
+    .ourDoctors #doctors .theDoctor .profile {
+        width: 96.75px;
+        height: 94.5px;
+        border-radius: 112.5px;
+        border: 7.5px #298888 solid;
+    }
+
+    .ourDoctors #doctors .theDoctor .profile img {
+        width: 96.75px;
+        height: 94.5px;
+        border-radius: 112.5px;
+    }
+
+    .theDoctor .identity .name {
+        font-size: 22.5px;
+    }
+
+    .theDoctor .identity .job {
+        font-size: 18.75px;
+    }
+
+    .theDoctor .licensi {
+        padding: 22.5px;
+    }
+
+    .theDoctor .licensi p {
+        font-size: 15px;
+    }
+
+
+    .theDoctor .consult {
+        width: 181.5px;
+        height: 65.25px;
+        border-radius: 37.5px;
+        font-size: 22.5px;
+        font-weight: 150px;
+        margin-bottom: 22.5px;
+    }
+
+    .ourDoctors .title {
+        margin-left: 37.5px;
+    }
+
+    .ourDoctors .line {
+        margin-left: 37.5px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container>.image img {
+        width: 234px;
+        height: 210px;
+        margin: 50px;
+    }
+
+    .container>.quote {
+        width: 487px;
+        height: 84px;
+        margin-bottom: 5px;
+    }
+
+    .container>.quote>blockquote {
+        font-size: 17px;
+    }
+
+    .container .imperative-sentences {
+        width: 437px;
+        height: 69.5px;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .container .imperative-sentences>p {
+        font-size: 15px;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .info .line {
+        width: 62px;
+        height: 2.5px;
+    }
+
+    .info .title {
+        font-size: 18px;
+        margin-top: 25px;
+    }
+
+    .info .paragraph {
+        font-size: 17px;
+        margin-top: 25px;
+    }
+
+    .info .aboutUs {
+        margin: 25px;
+
+    }
+
+    .info .aboutUs #readMore {
+        width: 121px;
+        height: 43.5px;
+        border-radius: 25px;
+        font-size: 15px;
+        font-weight: 550;
+        margin-top: 25px;
+    }
+
+    .info .ourService {
+        margin: 25px;
+    }
+
+
+    .info .images>img {
+        margin: 25px;
+        width: 178.5px;
+        height: 120px;
+        border: 1px black solid;
+        border-radius: 5px;
+    }
+
+    .info #comments #title>p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .info #comments .comment {
+        width: 188.5px;
+        height: 231px;
+        margin: 12px;
+        border-radius: 7.5px;
+        padding: 15px;
+    }
+
+    .info #comments .comment h1 {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .info #comments .comment .theComment {
+        height: 93.5px;
+        font-size: 15px;
+    }
+
+    .info #comments .comment .doubleComma {
+        font-size: 50px;
+    }
+
+    .info .ourDoctors {
+        width: 100%;
+        height: 406px;
+    }
+
+    .ourDoctors #doctors .theDoctor {
+        width: 225px;
+        height: 285.5px;
+        margin: 12.5px;
+        border-radius: 7.5px;
+    }
+
+    .ourDoctors #doctors .theDoctor header {
+        height: 11px;
+        border-radius: 7.5px 7.5px 0px 0px;
+    }
+
+    .ourDoctors #doctors .theDoctor .profile {
+        width: 64.5px;
+        height: 63px;
+        border-radius: 75px;
+        border: 5px #298888 solid;
+    }
+
+    .ourDoctors #doctors .theDoctor .profile img {
+        width: 64.5px;
+        height: 63px;
+        border-radius: 75px;
+    }
+
+    .theDoctor .identity .name {
+        font-size: 15px;
+    }
+
+    .theDoctor .identity .job {
+        font-size: 12.5px;
+    }
+
+    .theDoctor .licensi {
+        padding: 15px;
+    }
+
+    .theDoctor .licensi p {
+        font-size: 10px;
+    }
+
+
+    .theDoctor .consult {
+        width: 121px;
+        height: 43.5px;
+        border-radius: 25px;
+        font-size: 15px;
+        font-weight: 300px;
+        margin-bottom: 15px;
+    }
+
+    .ourDoctors .title {
+        margin-left: 25px;
+    }
+
+    .ourDoctors .line {
+        margin-left: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container>.image img {
+        width: 117px;
+        height: 105px;
+        margin: 25px;
+    }
+
+    .container>.quote {
+        width: 243.5px;
+        height: 42px;
+        margin-bottom: 2.5px;
+    }
+
+    .container>.quote>blockquote {
+        font-size: 8.5px;
+    }
+
+    .container .imperative-sentences {
+        width: 218.5px;
+        height: 34.75px;
+        border-radius: 2.5px;
+        margin-bottom: 7.5px;
+    }
+
+    .container .imperative-sentences>p {
+        font-size: 7.5px;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .info .line {
+        width: 31px;
+        height: 1.25px;
+    }
+
+    .info .title {
+        font-size: 9px;
+        margin-top: 12.5px;
+    }
+
+    .info .paragraph {
+        font-size: 8.5px;
+        margin-top: 12.5px;
+    }
+
+    .info .aboutUs {
+        margin: 12.5px;
+
+    }
+
+    .info .aboutUs #readMore {
+        width: 60.5px;
+        height: 21.75px;
+        border-radius: 12.5px;
+        font-size: 7.5px;
+        font-weight: 550;
+        margin-top: 12.5px;
+    }
+
+    .info .ourService {
+        margin: 12.5px;
+    }
+
+
+    .info .images>img {
+        margin: 12.5px;
+        width: 89.25px;
+        height: 60px;
+        border: 1px black solid;
+        border-radius: 2.5px;
+    }
+
+    .info #comments #title>p {
+        font-size: 9px;
+        font-weight: 500;
+    }
+
+    .info #comments .comment {
+        width: 94.25px;
+        height: 115.5px;
+        margin: 6px;
+        border-radius: 3.75px;
+        padding: 7.5px;
+    }
+
+    .info #comments .comment h1 {
+        font-size: 7.5px;
+        font-weight: 700;
+    }
+
+    .info #comments .comment .theComment {
+        height: 46.75px;
+        font-size: 7.5px;
+    }
+
+    .info #comments .comment .doubleComma {
+        font-size: 25px;
+    }
+
+    .info .ourDoctors {
+        width: 100%;
+        height: 203px;
+    }
+
+    .ourDoctors #doctors .theDoctor {
+        width: 112.5px;
+        height: 142.75px;
+        margin: 6.25px;
+        border-radius: 3.75px;
+    }
+
+    .ourDoctors #doctors .theDoctor header {
+        height: 5.5px;
+        border-radius: 3.75px 3.75px 0px 0px;
+    }
+
+    .ourDoctors #doctors .theDoctor .profile {
+        width: 32.25px;
+        height: 31.5px;
+        border-radius: 37.5px;
+        border: 2.5px #298888 solid;
+    }
+
+    .ourDoctors #doctors .theDoctor .profile img {
+        width: 32.25px;
+        height: 31.5px;
+        border-radius: 37.5px;
+    }
+
+    .theDoctor .identity .name {
+        font-size: 7.5px;
+    }
+
+    .theDoctor .identity .job {
+        font-size: 6.25px;
+    }
+
+    .theDoctor .licensi {
+        padding: 7.5px;
+    }
+
+    .theDoctor .licensi p {
+        font-size: 5px;
+    }
+
+
+    .theDoctor .consult {
+        width: 60.5px;
+        height: 21.75px;
+        border-radius: 12.5px;
+        font-size: 7.5px;
+        font-weight: 600;
+        margin-bottom: 7.5px;
+    }
+
+    .ourDoctors .title {
+        margin-left: 7.5px;
+    }
+
+    .ourDoctors .line {
+        margin-left: 7.5px;
+    }
+
+}
+
+/*=============================================*/
