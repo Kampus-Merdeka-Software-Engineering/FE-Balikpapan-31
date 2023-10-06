@@ -94,6 +94,7 @@
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
+    margin-top: 20px;
 }
 
 .services .text {
@@ -108,6 +109,7 @@
     text-align: justify;
     letter-spacing: 0;
     line-height: normal;
+    margin-top: 20px;
 }
 
 .services .icon {
@@ -154,6 +156,7 @@
     text-align: justify;
     letter-spacing: 0;
     line-height: normal;
+    margin-top: 20px;
 }
 
 .services .img {
@@ -204,6 +207,7 @@
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
+    margin-top: 20px;
 }
 
 .services .consult-2 {
@@ -218,6 +222,7 @@
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
+    margin-top: 20px;
 }
 
 .services .text-2 {
@@ -232,6 +237,7 @@
     text-align: justify;
     letter-spacing: 0;
     line-height: normal;
+    margin-top: 20px;
 }
 
 .services .icon-2 {
@@ -241,19 +247,45 @@
     height: 124px;
     top: 0;
 }
-.button {
-  display: inline-block;
-  padding: 0px 20px;
+
+.consult a {
+    text-decoration: none;
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    margin-left: -60px;
+
+}
+
+.consult a button {
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    color: #FFFFFF;
+    background-color: #4F46C9;
+}
+
+
+/* .button {
+  display: block;
+  text-align: center;
+  padding: 10px 50px 10px 50px;
   background-color: #4f46c9;
   color: #fff;
   text-decoration: none;
   border-radius: 15px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+} */
+
+.consult a button:hover {
+    transform: scale(1.1);
 }
 
-.button:hover {
-  background-color: #6259e4;
-  transform: scale(1.05);
+.consult a button:active {
+    transform: scale(0.9);
 }
 
 @media screen and (max-width: 769px) {

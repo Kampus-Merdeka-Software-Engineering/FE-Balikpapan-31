@@ -44,11 +44,13 @@ body {
 .article a {
     width: auto;
     height: auto;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: 25px;
 }
 
 .article a button {
+    cursor: pointer;
     width: 150px;
     height: 50px;
     border-radius: 30px;

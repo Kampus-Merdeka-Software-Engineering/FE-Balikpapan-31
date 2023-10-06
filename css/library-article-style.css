@@ -10,6 +10,7 @@
 }
 
 .back-button a button {
+    cursor: pointer;
     width: 160px;
     height: 60px;
     border-radius: 30px;
