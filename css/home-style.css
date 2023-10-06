@@ -280,7 +280,7 @@
     justify-content: center;
 }
 
-.carousel .theDoctor{
+.carousel .theDoctor {
     scroll-snap-align: start;
     width: 500px;
     height: 571px;
@@ -404,7 +404,34 @@
 .ourDoctors .line {
     margin-left: 50px;
 }
+
 @media screen and (max-width: 1366px) {
+
+    .wrapper {
+        width: 750px;
+    }
+
+    .wrapper i {
+        height: 37.5px;
+        width: 37.5px;
+        font-size: 0.9375rem;
+        line-height: 37.5px;
+        box-shadow: 0 2.25px 4.5px rgba(0, 0, 0, 0.23);
+    }
+
+    .wrapper i:first-child {
+        left: -16.5px;
+    }
+
+    .wrapper i:last-child {
+        right: -16.5px;
+    }
+
+    .wrapper .carousel {
+        gap: 18.75px;
+        border-radius: 6px;
+    }
+
     .container>.image img {
         width: 351px;
         height: 315px;
@@ -562,6 +589,32 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+    .wrapper {
+        width: 500px;
+    }
+
+    .wrapper i {
+        height: 25px;
+        width: 25px;
+        font-size: 0.625rem;
+        line-height: 25px;
+        box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.23);
+    }
+
+    .wrapper i:first-child {
+        left: -11px;
+    }
+
+    .wrapper i:last-child {
+        right: -11px;
+    }
+
+    .wrapper .carousel {
+        gap: 12.5px;
+        border-radius: 4px;
+    }
+
     .container>.image img {
         width: 234px;
         height: 210px;
@@ -728,6 +781,31 @@
 }
 
 @media screen and (max-width: 500px) {
+    .wrapper {
+        width: 250px;
+    }
+
+    .wrapper i {
+        height: 12.5px;
+        width: 12.5px;
+        font-size: 0.3125rem;
+        line-height: 12.5px;
+        box-shadow: 0 0.75px 1.5px rgba(0, 0, 0, 0.23);
+    }
+
+    .wrapper i:first-child {
+        left: -5.5px;
+    }
+
+    .wrapper i:last-child {
+        right: -5.5px;
+    }
+
+    .wrapper .carousel {
+        gap: 6.25px;
+        border-radius: 2px;
+    }
+
     .container>.image img {
         width: 117px;
         height: 105px;
