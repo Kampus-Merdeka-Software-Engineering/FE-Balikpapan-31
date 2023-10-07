@@ -8,7 +8,7 @@
 
 }
 
-.carousel{
+.carousel {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,7 +23,8 @@
     overflow: hidden;
 }
 
-#prevButton,#nextButton{
+#prevButton,
+#nextButton {
     width: 84px;
     height: 84px;
     border-radius: 42px;
@@ -41,22 +42,22 @@
 
 }
 
-#nextButton:hover{
+#nextButton:hover {
     transform: scale(1.1);
     background-color: #4F46C9;
 }
 
-#nextButton:active{
+#nextButton:active {
     transform: scale(0.9);
     background-color: #4F46C9;
 }
 
-#prevButton:hover{
+#prevButton:hover {
     transform: scale(1.1);
     background-color: #4F46C9;
 }
 
-#prevButton:active{
+#prevButton:active {
     transform: scale(0.9);
     background-color: #4F46C9;
 }
@@ -171,12 +172,40 @@
     flex-wrap: wrap;
 }
 
-.info .images>img {
+.info .images>.img {
     margin: 50px;
     width: 359px;
     height: 240px;
-    border: 1px black solid;
+    border: 1px #0F5F5F solid;
     border-radius: 10px;
+}
+
+.info .images>.img img {
+    width: 359px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.info .images>.img .hover {
+    display: none;
+    width: 359px;
+    height: 240px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #A1CCF4, #FDFDFD);
+    align-items: center;
+    justify-content: center;
+}
+
+.info .images>.img .hover p {
+    width: 85%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 550;
+    color: #0F5F5F;
+}
+
+.info .images>.img .hover p:hover {
+    cursor: default;
 }
 
 .info #comments {
@@ -273,7 +302,7 @@
     justify-content: space-between;
     border-radius: 8px;
     flex-grow: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .ourDoctors #doctors .theDoctor {
@@ -387,14 +416,15 @@
 
 @media screen and (max-width: 1366px) {
 
-    .carousel{
+    .carousel {
         gap: 37.5px;
         width: 787.5px;
         margin-top: 37.5x;
-        margin-bottom:37.5px;
+        margin-bottom: 37.5px;
     }
 
-    #prevButton,#nextButton{
+    #prevButton,
+    #nextButton {
         width: 63px;
         height: 63px;
         border-radius: 31.5px;
@@ -461,11 +491,27 @@
     }
 
 
-    .info .images>img {
+    .info .images>.img {
         margin: 37.5px;
         width: 267.75px;
         height: 180px;
         border-radius: 7.5px;
+    }
+
+    .info .images>.img img {
+        width: 267.75px;
+        height: 180px;
+        border-radius: 7.5px;
+    }
+
+    .info .images>.img .hover {
+        width: 267.75px;
+        height: 180px;
+        border-radius: 7.5px;
+    }
+
+    .info .images>.img .hover p {
+        font-size: 27px;
     }
 
     .info #comments #title>p {
@@ -557,15 +603,16 @@
 }
 
 @media screen and (max-width: 1024px) {
-    
-    .carousel{
+
+    .carousel {
         gap: 25px;
         width: 525px;
         margin-top: 25px;
         margin-bottom: 25px;
     }
 
-    #prevButton,#nextButton{
+    #prevButton,
+    #nextButton {
         width: 42px;
         height: 42px;
         border-radius: 21px;
@@ -637,12 +684,29 @@
     }
 
 
-    .info .images>img {
+    .info .images>.img {
         margin: 25px;
         width: 178.5px;
         height: 120px;
         border: 1px black solid;
         border-radius: 5px;
+    }
+
+    .info .images>.img img {
+        width: 178.5px;
+        height: 120px;
+        border-radius: 5px;
+    }
+
+    .info .images>.img .hover {
+        display: none;
+        width: 178.5px;
+        height: 120px;
+        border-radius: 5px;
+    }
+
+    .info .images>.img .hover p {
+        font-size: 17px;
     }
 
     .info #comments #title>p {
@@ -738,14 +802,15 @@
 
 @media screen and (max-width: 500px) {
 
-    .carousel{
+    .carousel {
         gap: 12.5px;
         width: 262.5px;
         margin-top: 12.5px;
         margin-bottom: 12.5px;
     }
 
-    #prevButton,#nextButton{
+    #prevButton,
+    #nextButton {
         width: 21px;
         height: 21px;
         border-radius: 10.5px;
@@ -817,12 +882,28 @@
     }
 
 
-    .info .images>img {
+    .info .images>.img {
         margin: 12.5px;
         width: 89.25px;
         height: 60px;
         border: 1px black solid;
         border-radius: 2.5px;
+    }
+
+    .info .images>.img img {
+        width: 89.25px;
+        height: 60px;
+        border-radius: 2.5px;
+    }
+
+    .info .images>.img .hover {
+        width: 89.25px;
+        height: 60px;
+        border-radius: 2.5px;
+    }
+
+    .info .images>.img .hover p {
+        font-size: 9px;
     }
 
     .info #comments #title>p {

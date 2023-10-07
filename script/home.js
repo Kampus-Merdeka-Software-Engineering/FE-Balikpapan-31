@@ -49,3 +49,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
     startAutoplay();
 });
+
+// =============================================================
+const boxes = document.querySelectorAll(".info .images>.img");
+const imgService = document.querySelectorAll(".info .images>.img img");
+const hover = document.getElementsByClassName("hover");
+
+for (let index = 0; index < boxes.length; index++) {
+    boxes[index].addEventListener("mouseenter", () => {
+        imgService[index].style.display = "none";
+        hover[index].style.display = "flex";
+    });
+
+    boxes[index].addEventListener("mouseleave", () => {
+        imgService[index].style.display = "block";
+        hover[index].style.display = "none";
+    });
+}
