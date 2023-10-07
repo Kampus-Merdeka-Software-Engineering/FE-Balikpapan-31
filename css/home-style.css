@@ -8,6 +8,59 @@
 
 }
 
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1050px;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+#prevButton,#nextButton{
+    width: 84px;
+    height: 84px;
+    border-radius: 42px;
+    border: none;
+    font-size: 48px;
+    color: #FFFFFF;
+    background-color: #766FD5;
+    font-weight: 600;
+    cursor: pointer;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nextButton:hover{
+    transform: scale(1.1);
+    background-color: #4F46C9;
+}
+
+#nextButton:active{
+    transform: scale(0.9);
+    background-color: #4F46C9;
+}
+
+#prevButton:hover{
+    transform: scale(1.1);
+    background-color: #4F46C9;
+}
+
+#prevButton:active{
+    transform: scale(0.9);
+    background-color: #4F46C9;
+}
+
 .container>.image img {
     width: 468px;
     height: 419px;
@@ -200,79 +253,6 @@
     background: linear-gradient(to right, #A1CCF4, #FDFDFD);
 }
 
-.wrapper {
-    width: 1100px;
-    height: auto;
-    position: relative;
-    display: flex;
-    padding: 0 40px;
-    align-items: center;
-    justify-content: center;
-}
-
-.wrapper i {
-    top: 50%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    font-size: 1.25rem;
-    position: absolute;
-    text-align: center;
-    line-height: 50px;
-    background: #766FD5;
-    color: #fff;
-    border-radius: 50%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
-    transform: translateY(-50%);
-    transition: transform 0.1s linear;
-}
-
-.wrapper i:active {
-    transform: translateY(-50%) scale(0.85);
-}
-
-.wrapper i:first-child {
-    left: -22px;
-}
-
-.wrapper i:last-child {
-    right: -22px;
-}
-
-.wrapper .carousel {
-    display: grid;
-    grid-auto-flow: column;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 25px;
-    border-radius: 8px;
-    scroll-behavior: smooth;
-    scrollbar-width: none;
-}
-
-.carousel::-webkit-scrollbar {
-    display: none;
-}
-
-.carousel.no-transition {
-    scroll-behavior: auto;
-}
-
-.carousel.dragging {
-    scroll-snap-type: none;
-    scroll-behavior: auto;
-}
-
-.carousel.dragging .theDoctor {
-    cursor: grab;
-    user-select: none;
-}
-
-.carousel :where(.theDoctor, .img) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .ourDoctors #doctors {
     display: flex;
@@ -284,22 +264,21 @@
     scroll-snap-align: start;
     width: 500px;
     height: 571px;
-    margin: 25px;
     list-style: none;
     background-color: #FFFFFF;
     cursor: pointer;
-    padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border-radius: 8px;
+    flex-grow: 0;
+        flex-shrink: 0;
 }
 
 .ourDoctors #doctors .theDoctor {
     width: 500px;
     height: 571px;
-    margin: 25px;
     border-radius: 15px;
     background-color: #FFFFFF;
     display: flex;
@@ -408,29 +387,18 @@
 
 @media screen and (max-width: 1366px) {
 
-    .wrapper {
-        width: 750px;
+    .carousel{
+        gap: 37.5px;
+        width: 787.5px;
+        margin-top: 37.5x;
+        margin-bottom:37.5px;
     }
 
-    .wrapper i {
-        height: 37.5px;
-        width: 37.5px;
-        font-size: 0.9375rem;
-        line-height: 37.5px;
-        box-shadow: 0 2.25px 4.5px rgba(0, 0, 0, 0.23);
-    }
-
-    .wrapper i:first-child {
-        left: -16.5px;
-    }
-
-    .wrapper i:last-child {
-        right: -16.5px;
-    }
-
-    .wrapper .carousel {
-        gap: 18.75px;
-        border-radius: 6px;
+    #prevButton,#nextButton{
+        width: 63px;
+        height: 63px;
+        border-radius: 31.5px;
+        font-size: 36px;
     }
 
     .container>.image img {
@@ -530,9 +498,8 @@
     }
 
     .ourDoctors #doctors .theDoctor {
-        width: 337.5px;
+        width: 375px;
         height: 428.25px;
-        margin: 18.75px;
         border-radius: 11.25px;
     }
 
@@ -590,30 +557,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-
-    .wrapper {
-        width: 500px;
+    
+    .carousel{
+        gap: 25px;
+        width: 525px;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 
-    .wrapper i {
-        height: 25px;
-        width: 25px;
-        font-size: 0.625rem;
-        line-height: 25px;
-        box-shadow: 0 1.5px 3px rgba(0, 0, 0, 0.23);
-    }
-
-    .wrapper i:first-child {
-        left: -11px;
-    }
-
-    .wrapper i:last-child {
-        right: -11px;
-    }
-
-    .wrapper .carousel {
-        gap: 12.5px;
-        border-radius: 4px;
+    #prevButton,#nextButton{
+        width: 42px;
+        height: 42px;
+        border-radius: 21px;
+        font-size: 24px;
     }
 
     .container>.image img {
@@ -722,9 +678,8 @@
     }
 
     .ourDoctors #doctors .theDoctor {
-        width: 225px;
+        width: 250px;
         height: 285.5px;
-        margin: 12.5px;
         border-radius: 7.5px;
     }
 
@@ -782,29 +737,19 @@
 }
 
 @media screen and (max-width: 500px) {
-    .wrapper {
-        width: 250px;
+
+    .carousel{
+        gap: 12.5px;
+        width: 262.5px;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
     }
 
-    .wrapper i {
-        height: 12.5px;
-        width: 12.5px;
-        font-size: 0.3125rem;
-        line-height: 12.5px;
-        box-shadow: 0 0.75px 1.5px rgba(0, 0, 0, 0.23);
-    }
-
-    .wrapper i:first-child {
-        left: -5.5px;
-    }
-
-    .wrapper i:last-child {
-        right: -5.5px;
-    }
-
-    .wrapper .carousel {
-        gap: 6.25px;
-        border-radius: 2px;
+    #prevButton,#nextButton{
+        width: 21px;
+        height: 21px;
+        border-radius: 10.5px;
+        font-size: 12px;
     }
 
     .container>.image img {
@@ -913,9 +858,8 @@
     }
 
     .ourDoctors #doctors .theDoctor {
-        width: 112.5px;
+        width: 125px;
         height: 142.75px;
-        margin: 6.25px;
         border-radius: 3.75px;
     }
 
