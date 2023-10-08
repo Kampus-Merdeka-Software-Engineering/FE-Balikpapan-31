@@ -63,20 +63,20 @@
             <h1>Form Consultation</h1>
             <div class="head-line"></div>
         </div>
-        <form action="submit">
+        <form id="myForm">
             <div class="form-box">
                 <div class="form-left">
                     <div class="name">
                         <label>Name</label>
-                        <input type="text" name="name" required>
+                        <input type="text" id="name" name="name" required>
                     </div>
                     <div class="email">
                         <label>Email</label>
-                        <input type="email" name="email" required>
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="no-wa">
                         <label>No. Whatsapp</label>
-                        <input type="text" name="noWhatsapp" required>
+                        <input type="text" id="noWA" name="noWhatsapp" required>
                     </div>
                     <div class="doctor">
                         <label for="doctor">Choose Doctor</label>
@@ -96,7 +96,7 @@
                 <div class="form-right">
                     <div class="age">
                         <label>Age</label>
-                        <input type="text" name="age" required>
+                        <input type="text" id="age" name="age" required>
                     </div>
                     <div class="gender">
                         <label>Gender</label>
@@ -108,7 +108,7 @@
                     </div>
                     <div class="choose-services">
                         <label>Choose Services</label>
-                        <select id="doctor" name="doctor" required>
+                        <select id="service" name="service" required>
                             <option disabled selected value="">Select your service</option>
                             <option value="1">service 1</option>
                             <option value="2">service 2</option>
@@ -136,6 +136,7 @@
             <li><a href="https://linkedin.com" target="blank"><img src="./images/linkedin.png" alt="Linkedin"></a></li>
         </ul>
     </div>
+    <script type="text/javascript" src="./script/post-pasien.js"></script>
     <script type="text/javascript" src="./script/navbar.js"></script>
 </body>
 
