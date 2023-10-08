@@ -163,7 +163,7 @@ a {
     .article-content-1,
     .article-content-2,
     .article-content-3 {
-        width: 370px;
+        min-width: 370px;
     }
 
     .article-content-image img {
@@ -178,5 +178,19 @@ a {
     .main {
         margin-top: 0;
         margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 399px){
+    .article-content-1,
+    .article-content-2,
+    .article-content-3 {
+        transform: scale(0.85);
+        margin: 0;
+    }
+    .article {
+        gap: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 }

@@ -60,6 +60,7 @@ button {
     border: none;
     font-size: 30px;
     font-weight: 650;
+    cursor: pointer;
 }
 
 button:hover {
@@ -117,7 +118,7 @@ footer {
 
 @media screen and (max-width: 895px) {
     body {
-        height: 100vh;
+        height: 100%;
     }
 
     header {

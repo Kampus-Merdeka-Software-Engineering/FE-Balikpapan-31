@@ -296,6 +296,7 @@
 
     .services .content {
         margin-top: 25px;
+        gap: 60px;
     }
 
     .services .box {

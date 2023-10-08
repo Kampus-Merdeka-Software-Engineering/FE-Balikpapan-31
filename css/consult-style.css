@@ -139,6 +139,7 @@ form .submit button {
     color: #E6F6F7;
     font-size: 25px;
     font-weight: 550;
+    cursor: pointer;
 }
 
 form .submit button:hover{
