@@ -7,6 +7,12 @@ body {
     font-family: 'Poppins', sans-serif;
 
 }
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    transition: top 0.3s;
+}
 
 .navbar nav {
     position: relative;

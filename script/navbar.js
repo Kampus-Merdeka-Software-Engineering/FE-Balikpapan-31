@@ -39,3 +39,21 @@ pageCurrent.addEventListener('mouseleave', () => {
 
 
 // =====================================================
+const navbar = document.getElementsByClassName("navbar")[0];
+
+let prevScrollpos = window.pageYOffset;
+
+window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+
+    if (prevScrollpos < currentScrollPos) {
+        navbar.style.top = "-115px";
+        menus.style.display = 'none';
+        isOpen = false;
+    } 
+    else {
+        navbar.style.top = "0";
+    }
+
+    prevScrollpos = currentScrollPos;
+}

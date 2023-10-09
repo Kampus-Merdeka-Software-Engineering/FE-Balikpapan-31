@@ -16,7 +16,7 @@
     <div class="navbar">
         <nav>
             <div id="logo">
-                <img src="./images/logo.png">
+                <a href="index.html"><img src="./images/logo.png"></a>
             </div>
             <ul class="menus1">
                 <li>
@@ -76,7 +76,7 @@
                     </div>
                     <div class="no-wa">
                         <label>No. Whatsapp</label>
-                        <input type="text" id="noWA" name="noWhatsapp" required>
+                        <input type="text" id="noWA" name="noWhatsapp" pattern="[0-9]*" minlength="11" maxlength="13" title="just numbers, 11-13 characters" required>
                     </div>
                     <div class="doctor">
                         <label for="doctor">Choose Doctor</label>
@@ -96,7 +96,7 @@
                 <div class="form-right">
                     <div class="age">
                         <label>Age</label>
-                        <input type="text" id="age" name="age" required>
+                        <input type="text" id="age" name="age" pattern="[0-9]*" title="just numbers" required>
                     </div>
                     <div class="gender">
                         <label>Gender</label>
@@ -110,9 +110,9 @@
                         <label>Choose Services</label>
                         <select id="service" name="service" required>
                             <option disabled selected value="">Select your service</option>
-                            <option value="1">service 1</option>
-                            <option value="2">service 2</option>
-                            <option value="3">service 3</option>
+                            <option value="Remote Consultation">Remote Consultation</option>
+                            <option value="Online Therapy">Online Therapy</option>
+                            <option value="Mentalhealth Programs">Mentalhealth Programs</option>
                         </select>
                     </div>
                     <div class="description">
