@@ -24,6 +24,10 @@ body {
     height: 115px;
 }
 
+.navbar nav #logo a{
+    text-decoration: none;
+}
+
 .navbar nav #logo img {
     width: 231px;
     height: 84px;
